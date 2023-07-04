@@ -24,3 +24,4 @@ yarn-error.log*
 .idea
 *.sublime*
 .vscode
+six-cities-13.code-workspace
