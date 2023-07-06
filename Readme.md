@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Dmitry Pulsha](https://up.htmlacademy.ru/react/13/user/1599147).
-* Наставник: `Неизвестно`.
+* Наставник: [Павел Севостьянов](https://up.htmlacademy.ru/react/13/user/991145).
 
 ---
 
