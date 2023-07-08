@@ -1,10 +1,10 @@
-type CityCardPropsType = {
-  key: string;
-}
+// type CityCardPropsType = {
+//   keyValue: string;
+// }
 
-export default function CityCard({ key }: CityCardPropsType): JSX.Element {
+export default function CityCard(): JSX.Element {
   return (
-    <article key={ key } className="cities__card place-card">
+    <article className="cities__card place-card">
       <div className="place-card__mark">
         <span>Premium</span>
       </div>
