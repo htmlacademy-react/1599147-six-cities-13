@@ -1,13 +1,16 @@
+import CitiesList from '../../components/cities-list/cities-list';
 import CityCard from '../../components/city-card/city-card';
 import Header from '../../components/header/header';
+import { CitiesListType } from '../../types/cities-types';
 
 
-type MainPageFakePropsTypes = {
+type MainPagePropsTypes = {
   placesCount: number;
   offerCount: number;
- }
+  cityList: CitiesListType;
+}
 
-export default function MainPage(props : MainPageFakePropsTypes): JSX.Element {
+export default function MainPage(props : MainPagePropsTypes): JSX.Element {
 
   const fakeArray = new Array(props.placesCount);
   fakeArray.fill(Date.now());
@@ -19,40 +22,7 @@ export default function MainPage(props : MainPageFakePropsTypes): JSX.Element {
       <main className="page__main page__main--index">
         <h1 className="visually-hidden">Cities</h1>
         <div className="tabs">
-          <section className="locations container">
-            <ul className="locations__list tabs__list">
-              <li className="locations__item">
-                <a className="locations__item-link tabs__item" href="#">
-                  <span>Paris</span>
-                </a>
-              </li>
-              <li className="locations__item">
-                <a className="locations__item-link tabs__item" href="#">
-                  <span>Cologne</span>
-                </a>
-              </li>
-              <li className="locations__item">
-                <a className="locations__item-link tabs__item" href="#">
-                  <span>Brussels</span>
-                </a>
-              </li>
-              <li className="locations__item">
-                <a className="locations__item-link tabs__item tabs__item--active">
-                  <span>Amsterdam</span>
-                </a>
-              </li>
-              <li className="locations__item">
-                <a className="locations__item-link tabs__item" href="#">
-                  <span>Hamburg</span>
-                </a>
-              </li>
-              <li className="locations__item">
-                <a className="locations__item-link tabs__item" href="#">
-                  <span>Dusseldorf</span>
-                </a>
-              </li>
-            </ul>
-          </section>
+          <CitiesList cityList={props.cityList} />
         </div>
         <div className="cities">
           <div className="cities__places-container container">
@@ -67,8 +37,10 @@ export default function MainPage(props : MainPageFakePropsTypes): JSX.Element {
                     <use xlinkHref="#icon-arrow-select"></use>
                   </svg>
                 </span>
-                <ul className="places__options places__options--custom places__options--opened">
-                  <li className="places__option places__option--active" tabIndex={0}>Popular</li>
+                {/* places__options--opened */}
+                <ul className="places__options places__options--custom">
+                  {/* places__option--active */}
+                  <li className="places__option" tabIndex={0}>Popular</li>
                   <li className="places__option" tabIndex={0}>Price: low to high</li>
                   <li className="places__option" tabIndex={0}>Price: high to low</li>
                   <li className="places__option" tabIndex={0}>Top rated first</li>
