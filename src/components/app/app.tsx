@@ -6,6 +6,7 @@ const offerCount = 313;
 
 export default function App(): JSX.Element {
   return (
-    <MainPage placesCount={fakePlaceCount} offerCount={offerCount} cityList={cityList}/>
+    <MainPage placesCount={fakePlaceCount} offerCount={offerCount} cityList={cityList} />
+
   );
 }
