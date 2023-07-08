@@ -51,7 +51,7 @@ export default function OfferPage(): JSX.Element {
                 <div className="offer__stars rating__stars">
                   <span
                     style={{
-                      width: '80 %'
+                      width: '80%'
                     }}
                   >
                   </span>
