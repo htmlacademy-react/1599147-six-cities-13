@@ -25,3 +25,4 @@ yarn-error.log*
 *.sublime*
 .vscode
 six-cities-13.code-workspace
+/_temp
