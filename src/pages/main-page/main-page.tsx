@@ -5,13 +5,13 @@ import SortForm from '../../components/sort-form/sort-form';
 import { CitiesListType } from '../../types/cities-types';
 
 
-type MainPagePropsTypes = {
+type MainPageProps = {
   placesCount: number;
   offerCount: number;
   cityList: CitiesListType;
 }
 
-export default function MainPage(props : MainPagePropsTypes): JSX.Element {
+export default function MainPage(props : MainPageProps): JSX.Element {
 
   const fakeArray = new Array(props.placesCount);
   fakeArray.fill(Date.now());

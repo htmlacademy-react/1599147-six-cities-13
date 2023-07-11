@@ -1,7 +1,3 @@
-// type CityCardPropsType = {
-//   keyValue: string;
-// }
-
 export default function CityCard(): JSX.Element {
   return (
     <article className="cities__card place-card">

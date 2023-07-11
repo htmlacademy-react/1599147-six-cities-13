@@ -1,10 +1,10 @@
 import { CitiesListType } from '../../types/cities-types';
 
-type CitiesListPropsType = {
+type CitiesListProps = {
   cityList: CitiesListType;
 }
 
-export default function CitiesList({cityList}: CitiesListPropsType): JSX.Element {
+export default function CitiesList({cityList}: CitiesListProps): JSX.Element {
   return (
     <section className="locations container">
       <ul className="locations__list tabs__list">
