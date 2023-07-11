@@ -5,8 +5,12 @@ export default function HeaderNav(): JSX.Element {
   return (
     <nav className="header__nav">
       <ul className="header__nav-list">
-        <User />
-        <LoginControl/>
+        <li className="header__nav-item user">
+          <User />
+        </li>
+        <li className="header__nav-item">
+          <LoginControl />
+        </li>
       </ul>
     </nav>
   );
