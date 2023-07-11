@@ -1,4 +1,4 @@
-import MainPage from '../../pages/main/main';
+import MainPage from '../../pages/main-page/main-page';
 import { cityList } from '../../config/cities-list';
 
 const fakePlaceCount = 5;
