@@ -1,12 +1,17 @@
 import MainPage from '../../pages/main-page/main-page';
-import { cityList } from '../../config/cities-list';
+import { CitiesListType } from '../../types/cities-types';
 
-const fakePlaceCount = 5;
-const offerCount = 313;
+type AppProps = {
+  pageCardCount: number;
+  offerByCityCount: number;
+  cityList: CitiesListType;
+}
 
-export default function App(): JSX.Element {
+export default function App(props: AppProps): JSX.Element {
+  const { pageCardCount, offerByCityCount, cityList } = props;
+
   return (
-    <MainPage placesCount={fakePlaceCount} offerCount={offerCount} cityList={cityList} />
+    <MainPage placesCount={pageCardCount} offerCount={offerByCityCount} cityList={cityList} />
 
   );
 }
