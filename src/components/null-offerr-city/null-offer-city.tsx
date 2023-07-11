@@ -1,4 +1,4 @@
-export default function MainEmpty():JSX.Element {
+export default function NullOfferCity():JSX.Element {
   return (
     <section className="cities__no-places">
       <div className="cities__status-wrapper tabs__content">
