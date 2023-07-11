@@ -1,4 +1,4 @@
-import CitiesList from '../../components/cities-list/cities-list';
+import CitiesList from '../../components/cities-filter/cities-filter';
 import CityCard from '../../components/city-card/city-card';
 import Header from '../../components/header/header';
 import SortForm from '../../components/sort-form/sort-form';
@@ -13,8 +13,7 @@ type MainPageProps = {
 
 export default function MainPage(props : MainPageProps): JSX.Element {
 
-  const fakeArray = new Array(props.placesCount);
-  fakeArray.fill(Date.now());
+  const fakeArray = Array.from({ length: props.placesCount }, (value, index) => index);
 
   return (
     <div className="page page--gray page--main">
@@ -32,7 +31,7 @@ export default function MainPage(props : MainPageProps): JSX.Element {
               <b className="places__found">{props.offerCount} places to stay in Amsterdam</b>
               <SortForm />
               <div className="cities__places-list places__list tabs__content">
-                {fakeArray.map(() => <CityCard key={crypto.randomUUID()} />)}
+                {fakeArray.map((item) => <CityCard key={item} />)}
 
               </div>
             </section>
