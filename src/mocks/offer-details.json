@@ -1,0 +1,43 @@
+{
+  "id": "117ad30a-0624-4643-a7db-141b96ddff3d",
+  "title": "Beautiful & luxurious apartment at great location",
+  "description": "This is a place for dreamers to reset, reflect, and create. Designed with a 'slow' pace in mind, our hope is that you enjoy every part of your stay; from making local coffee by drip in the morning, choosing the perfect record to put on as the sun sets.",
+  "type": "apartment",
+  "price": 184,
+  "images": [
+    "https://13.design.pages.academy/static/hotel/18.jpg",
+    "https://13.design.pages.academy/static/hotel/9.jpg",
+    "https://13.design.pages.academy/static/hotel/4.jpg",
+    "https://13.design.pages.academy/static/hotel/1.jpg",
+    "https://13.design.pages.academy/static/hotel/10.jpg",
+    "https://13.design.pages.academy/static/hotel/12.jpg"
+  ],
+  "city": {
+    "name": "Paris",
+    "location": {
+      "latitude": 48.85661,
+      "longitude": 2.351499,
+      "zoom": 13
+    }
+  },
+  "location": {
+    "latitude": 48.858610000000006,
+    "longitude": 2.330499,
+    "zoom": 16
+  },
+  "goods": [
+    "Heating",
+    "Air conditioning",
+    "Washing machine"
+  ],
+  "host": {
+    "isPro": true,
+    "name": "Angelina",
+    "avatarUrl": "https://13.design.pages.academy/static/host/avatar-angelina.jpg"
+  },
+  "isPremium": true,
+  "isFavorite": false,
+  "rating": 2,
+  "bedrooms": 4,
+  "maxAdults": 8
+}

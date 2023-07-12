@@ -1,0 +1,2762 @@
+[
+  {
+    "id": "2c4e2067-04bd-4636-a1c2-c749fa7e2d85",
+    "title": "The Joshua Tree House",
+    "type": "apartment",
+    "price": 404,
+    "previewImage": "https://13.design.pages.academy/static/hotel/20.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.868610000000004,
+      "longitude": 2.342499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.8
+  },
+  {
+    "id": "117ad30a-0624-4643-a7db-141b96ddff3d",
+    "title": "Beautiful & luxurious apartment at great location",
+    "type": "apartment",
+    "price": 184,
+    "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.858610000000006,
+      "longitude": 2.330499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2
+  },
+  {
+    "id": "af4d9c3e-759d-4ec7-803b-89da823b39a5",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "hotel",
+    "price": 214,
+    "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.834610000000005,
+      "longitude": 2.335499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.1
+  },
+  {
+    "id": "9164db65-183c-4ab7-a00c-c57b18dafeea",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "house",
+    "price": 241,
+    "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.85761,
+      "longitude": 2.358499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2
+  },
+  {
+    "id": "425894d3-2bfb-452e-8405-3e8a91720dc1",
+    "title": "House in countryside",
+    "type": "house",
+    "price": 986,
+    "previewImage": "https://13.design.pages.academy/static/hotel/11.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.87561,
+      "longitude": 2.375499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.5
+  },
+  {
+    "id": "8acaa46d-4b84-428a-a49d-722f68f444eb",
+    "title": "Canal View Prinsengracht",
+    "type": "house",
+    "price": 918,
+    "previewImage": "https://13.design.pages.academy/static/hotel/8.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.87961000000001,
+      "longitude": 2.353499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3
+  },
+  {
+    "id": "1747a393-b878-4e66-9c0d-a6ab37d09127",
+    "title": "Tile House",
+    "type": "hotel",
+    "price": 424,
+    "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.834610000000005,
+      "longitude": 2.364499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.9
+  },
+  {
+    "id": "d23bb19d-88cb-45d0-b8c4-f5c33d0162cc",
+    "title": "Beautiful & luxurious apartment at great location",
+    "type": "hotel",
+    "price": 329,
+    "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.837610000000005,
+      "longitude": 2.3454990000000002,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.4
+  },
+  {
+    "id": "bd5bbd52-1de9-4f8e-b950-e12932e020f6",
+    "title": "Penthouse, 4-5 rooms + 5 balconies",
+    "type": "house",
+    "price": 404,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.84761,
+      "longitude": 2.356499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.2
+  },
+  {
+    "id": "bbced644-7779-4644-aba7-4f693a4e2a12",
+    "title": "Canal View Prinsengracht",
+    "type": "room",
+    "price": 171,
+    "previewImage": "https://13.design.pages.academy/static/hotel/8.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.862610000000004,
+      "longitude": 2.369499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.8
+  },
+  {
+    "id": "60178ad4-8111-41f9-b84a-0b3b96bb524c",
+    "title": "Penthouse, 4-5 rooms + 5 balconies",
+    "type": "house",
+    "price": 922,
+    "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.83861,
+      "longitude": 2.350499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.7
+  },
+  {
+    "id": "e1779c33-df05-4383-9a6e-1718ed66c449",
+    "title": "Canal View Prinsengracht",
+    "type": "hotel",
+    "price": 310,
+    "previewImage": "https://13.design.pages.academy/static/hotel/18.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.861610000000006,
+      "longitude": 2.340499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.5
+  },
+  {
+    "id": "3f4c48fa-09e3-4aa1-87f6-dfb26b0dc8de",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "house",
+    "price": 785,
+    "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.87861,
+      "longitude": 2.357499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.6
+  },
+  {
+    "id": "d5364003-75a3-41f4-a86c-8ee613e4dfed",
+    "title": "The house among olive ",
+    "type": "apartment",
+    "price": 258,
+    "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.877610000000004,
+      "longitude": 2.333499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.7
+  },
+  {
+    "id": "701fb762-e0ab-46fc-8b88-be0660c00831",
+    "title": "Tile House",
+    "type": "apartment",
+    "price": 236,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.83961,
+      "longitude": 2.342499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3
+  },
+  {
+    "id": "966a24b1-8171-4151-956b-50ef0b9067e1",
+    "title": "Penthouse, 4-5 rooms + 5 balconies",
+    "type": "hotel",
+    "price": 222,
+    "previewImage": "https://13.design.pages.academy/static/hotel/3.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.865610000000004,
+      "longitude": 2.350499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4
+  },
+  {
+    "id": "4cadf5b2-136e-4bef-b22d-d3411ae69942",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "house",
+    "price": 646,
+    "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.846610000000005,
+      "longitude": 2.374499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.4
+  },
+  {
+    "id": "e16feca3-f479-4384-8b65-527d35417035",
+    "title": "Beautiful & luxurious apartment at great location",
+    "type": "hotel",
+    "price": 278,
+    "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.837610000000005,
+      "longitude": 2.364499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.6
+  },
+  {
+    "id": "4b5f7922-a4c8-4e78-88dc-4883d27f33fd",
+    "title": "The house among olive ",
+    "type": "hotel",
+    "price": 115,
+    "previewImage": "https://13.design.pages.academy/static/hotel/3.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.843610000000005,
+      "longitude": 2.338499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.8
+  },
+  {
+    "id": "981f58e4-106f-4837-bf56-2abd288d2a03",
+    "title": "Wood and stone place",
+    "type": "room",
+    "price": 147,
+    "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+    "city": {
+      "name": "Paris",
+      "location": {
+        "latitude": 48.85661,
+        "longitude": 2.351499,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 48.84461,
+      "longitude": 2.374499,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.9
+  },
+  {
+    "id": "80a35bab-2b74-442e-b186-ebca0970b532",
+    "title": "House in countryside",
+    "type": "house",
+    "price": 347,
+    "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.950361,
+      "longitude": 6.961974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.8
+  },
+  {
+    "id": "b673a5f4-71c2-4ac9-a129-424f59e742ad",
+    "title": "The Pondhouse - A Magical Place",
+    "type": "hotel",
+    "price": 212,
+    "previewImage": "https://13.design.pages.academy/static/hotel/10.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.932361,
+      "longitude": 6.937974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.6
+  },
+  {
+    "id": "75ae9151-483b-4277-b522-26366a618b92",
+    "title": "Penthouse, 4-5 rooms + 5 balconies",
+    "type": "apartment",
+    "price": 437,
+    "previewImage": "https://13.design.pages.academy/static/hotel/1.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.934361,
+      "longitude": 6.943974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2
+  },
+  {
+    "id": "32441c19-7a1a-4f44-96b2-6e78c3ee07e7",
+    "title": "Canal View Prinsengracht",
+    "type": "apartment",
+    "price": 295,
+    "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.947361,
+      "longitude": 6.9799739999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.8
+  },
+  {
+    "id": "bfa0b56e-b7f2-492d-9416-7270c9085a79",
+    "title": "Tile House",
+    "type": "house",
+    "price": 536,
+    "previewImage": "https://13.design.pages.academy/static/hotel/17.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.960361,
+      "longitude": 6.967974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.8
+  },
+  {
+    "id": "9dc49a99-c459-46ca-83b0-08dc8791c0f8",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "apartment",
+    "price": 299,
+    "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.941361,
+      "longitude": 6.956974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2
+  },
+  {
+    "id": "281697c0-2bc0-4016-8e36-abc2365acd8a",
+    "title": "Canal View Prinsengracht",
+    "type": "hotel",
+    "price": 407,
+    "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.916361,
+      "longitude": 6.944974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.2
+  },
+  {
+    "id": "fed554e7-a514-48ff-877d-1823f055a0df",
+    "title": "Tile House",
+    "type": "apartment",
+    "price": 205,
+    "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.949361,
+      "longitude": 6.976974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.3
+  },
+  {
+    "id": "be202603-dfbb-41da-9d30-c0efa253c4b6",
+    "title": "Loft Studio in the Central Area",
+    "type": "room",
+    "price": 219,
+    "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.913361,
+      "longitude": 6.9509739999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4
+  },
+  {
+    "id": "1fc39641-81a6-402c-a214-ec5884f3a895",
+    "title": "Loft Studio in the Central Area",
+    "type": "apartment",
+    "price": 112,
+    "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.930361,
+      "longitude": 6.937974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.7
+  },
+  {
+    "id": "de6e503f-fbae-4f61-9905-e35498d066c2",
+    "title": "Waterfront with extraordinary view",
+    "type": "apartment",
+    "price": 439,
+    "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.960361,
+      "longitude": 6.9509739999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.3
+  },
+  {
+    "id": "0403d238-9e80-4c10-b50c-957108ac9ea4",
+    "title": "Wood and stone place",
+    "type": "hotel",
+    "price": 488,
+    "previewImage": "https://13.design.pages.academy/static/hotel/1.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.918461,
+      "longitude": 6.969974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.1
+  },
+  {
+    "id": "27bd518b-ab36-4057-ba84-434a93da554e",
+    "title": "Perfectly located Castro",
+    "type": "apartment",
+    "price": 314,
+    "previewImage": "https://13.design.pages.academy/static/hotel/10.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.957361,
+      "longitude": 6.9509739999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.7
+  },
+  {
+    "id": "abdeb6a4-be7c-4e5d-b4e1-9f159dedd2a2",
+    "title": "Loft Studio in the Central Area",
+    "type": "house",
+    "price": 979,
+    "previewImage": "https://13.design.pages.academy/static/hotel/11.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.951361,
+      "longitude": 6.944974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.7
+  },
+  {
+    "id": "a9b189a6-1d53-4975-9004-377f841394c7",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "house",
+    "price": 744,
+    "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.959361,
+      "longitude": 6.978974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.1
+  },
+  {
+    "id": "2339ead1-e711-4982-ba31-a1d6e334d370",
+    "title": "Penthouse, 4-5 rooms + 5 balconies",
+    "type": "apartment",
+    "price": 258,
+    "previewImage": "https://13.design.pages.academy/static/hotel/3.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.932361,
+      "longitude": 6.960974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.3
+  },
+  {
+    "id": "c0259a8d-1a7a-45af-9738-2fe71bd14669",
+    "title": "Loft Studio in the Central Area",
+    "type": "hotel",
+    "price": 361,
+    "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.954361,
+      "longitude": 6.982974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3
+  },
+  {
+    "id": "f258183f-c099-4186-9c8c-7029abf8481c",
+    "title": "Perfectly located Castro",
+    "type": "hotel",
+    "price": 161,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.945361,
+      "longitude": 6.962974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.5
+  },
+  {
+    "id": "42b66cfc-249d-473f-8d67-1c146a0e80b7",
+    "title": "Perfectly located Castro",
+    "type": "hotel",
+    "price": 132,
+    "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.917361,
+      "longitude": 6.977974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.3
+  },
+  {
+    "id": "34e871e4-73ea-40ea-b7b0-f83714b0d6dc",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "hotel",
+    "price": 112,
+    "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.945361,
+      "longitude": 6.935974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.8
+  },
+  {
+    "id": "8ce1921b-0af6-448a-8c79-955d319ddb14",
+    "title": "Waterfront with extraordinary view",
+    "type": "room",
+    "price": 166,
+    "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.854557,
+      "longitude": 4.364697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.2
+  },
+  {
+    "id": "210fe464-3748-4bc5-9686-d1833776fd70",
+    "title": "Perfectly located Castro",
+    "type": "hotel",
+    "price": 329,
+    "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.867557,
+      "longitude": 4.371696999999999,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.6
+  },
+  {
+    "id": "970a60a5-12b1-4e2a-891f-91ae109111e5",
+    "title": "Tile House",
+    "type": "hotel",
+    "price": 358,
+    "previewImage": "https://13.design.pages.academy/static/hotel/13.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.827557,
+      "longitude": 4.336697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.4
+  },
+  {
+    "id": "fa6b315e-c573-4126-bd48-2b2f04841cc3",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "room",
+    "price": 167,
+    "previewImage": "https://13.design.pages.academy/static/hotel/18.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.833557,
+      "longitude": 4.374696999999999,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.5
+  },
+  {
+    "id": "e9fa6266-7e9b-42e5-a2a6-594513cb6161",
+    "title": "Tile House",
+    "type": "room",
+    "price": 135,
+    "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.837557,
+      "longitude": 4.339697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.2
+  },
+  {
+    "id": "82e0fef3-4cfd-446f-bb24-d2fc9de2fa0c",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "hotel",
+    "price": 482,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.849557,
+      "longitude": 4.374696999999999,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.3
+  },
+  {
+    "id": "57cf309a-5ecc-44e8-9094-0bb7b8bd88ac",
+    "title": "Beautiful & luxurious apartment at great location",
+    "type": "house",
+    "price": 748,
+    "previewImage": "https://13.design.pages.academy/static/hotel/20.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.852557,
+      "longitude": 4.3376969999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4
+  },
+  {
+    "id": "9ab5926d-8123-46a7-b459-f2fed360febd",
+    "title": "House in countryside",
+    "type": "apartment",
+    "price": 192,
+    "previewImage": "https://13.design.pages.academy/static/hotel/4.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.828556999999996,
+      "longitude": 4.362697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.8
+  },
+  {
+    "id": "98eb2e5e-3f11-4b7d-831f-652807d5e3cc",
+    "title": "Canal View Prinsengracht",
+    "type": "house",
+    "price": 557,
+    "previewImage": "https://13.design.pages.academy/static/hotel/5.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.835556999999994,
+      "longitude": 4.354697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.6
+  },
+  {
+    "id": "8e7f0aab-2328-4c07-97df-6925f0bb6f25",
+    "title": "The Pondhouse - A Magical Place",
+    "type": "hotel",
+    "price": 119,
+    "previewImage": "https://13.design.pages.academy/static/hotel/3.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.867557,
+      "longitude": 4.339697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.9
+  },
+  {
+    "id": "364dfd82-32de-4da2-a92d-c9ddfd7dd438",
+    "title": "Tile House",
+    "type": "room",
+    "price": 138,
+    "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.839557,
+      "longitude": 4.346697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.8
+  },
+  {
+    "id": "f013b222-4833-4387-a118-a21703cfb60a",
+    "title": "Loft Studio in the Central Area",
+    "type": "room",
+    "price": 268,
+    "previewImage": "https://13.design.pages.academy/static/hotel/11.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.844556999999995,
+      "longitude": 4.346697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.9
+  },
+  {
+    "id": "8f06a8fd-e39d-4cc4-864c-bad0a57ab5df",
+    "title": "The Joshua Tree House",
+    "type": "room",
+    "price": 270,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.865556999999995,
+      "longitude": 4.371696999999999,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.2
+  },
+  {
+    "id": "ba531c64-7595-4c3d-9b14-e26f33206bfb",
+    "title": "Wood and stone place",
+    "type": "house",
+    "price": 994,
+    "previewImage": "https://13.design.pages.academy/static/hotel/4.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.869557,
+      "longitude": 4.332697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.5
+  },
+  {
+    "id": "f906c0c0-11aa-4d16-ae02-21ef394cb515",
+    "title": "The house among olive ",
+    "type": "house",
+    "price": 937,
+    "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.860557,
+      "longitude": 4.376697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.3
+  },
+  {
+    "id": "7c606586-6208-4251-bab9-4f2c92af4b89",
+    "title": "Loft Studio in the Central Area",
+    "type": "hotel",
+    "price": 454,
+    "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.862556999999995,
+      "longitude": 4.375697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.7
+  },
+  {
+    "id": "c5a617d5-48b4-40ae-b15d-af15f6d2f88b",
+    "title": "Loft Studio in the Central Area",
+    "type": "hotel",
+    "price": 200,
+    "previewImage": "https://13.design.pages.academy/static/hotel/5.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.842557,
+      "longitude": 4.3536969999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.6
+  },
+  {
+    "id": "7678a0bf-87f0-455d-9f10-aa418885e872",
+    "title": "Nice, cozy, warm big bed apartment",
+    "type": "apartment",
+    "price": 229,
+    "previewImage": "https://13.design.pages.academy/static/hotel/11.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.822556999999996,
+      "longitude": 4.347697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.1
+  },
+  {
+    "id": "e720ecd7-e663-4bd1-bbbc-f24f11e5aa6c",
+    "title": "Waterfront with extraordinary view",
+    "type": "house",
+    "price": 180,
+    "previewImage": "https://13.design.pages.academy/static/hotel/3.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.867557,
+      "longitude": 4.357697,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.8
+  },
+  {
+    "id": "7cfb6394-6cf9-4147-bafe-b4db7722018a",
+    "title": "Perfectly located Castro",
+    "type": "house",
+    "price": 534,
+    "previewImage": "https://13.design.pages.academy/static/hotel/20.jpg",
+    "city": {
+      "name": "Brussels",
+      "location": {
+        "latitude": 50.846557,
+        "longitude": 4.351697,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.842557,
+      "longitude": 4.363696999999999,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3
+  },
+  {
+    "id": "ea5610dc-2b9c-47ca-856b-8d343e06a327",
+    "title": "Canal View Prinsengracht",
+    "type": "house",
+    "price": 541,
+    "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.36554,
+      "longitude": 4.911976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.8
+  },
+  {
+    "id": "38e9e9ca-7bf7-4f80-b333-fd6ffc3f06e8",
+    "title": "Wood and stone place",
+    "type": "room",
+    "price": 289,
+    "previewImage": "https://13.design.pages.academy/static/hotel/10.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.385540000000006,
+      "longitude": 4.902976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.3
+  },
+  {
+    "id": "6b9ae054-90fd-4c8d-b702-9ed323dcea15",
+    "title": "Wood and stone place",
+    "type": "hotel",
+    "price": 191,
+    "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.397540000000006,
+      "longitude": 4.9099759999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.6
+  },
+  {
+    "id": "5e3bd1e9-cbb9-496b-9f56-97415ddcf44a",
+    "title": "Wood and stone place",
+    "type": "room",
+    "price": 265,
+    "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.37454,
+      "longitude": 4.881976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.2
+  },
+  {
+    "id": "ed5037f4-defa-429c-bcb8-67b3a544860a",
+    "title": "Beautiful & luxurious apartment at great location",
+    "type": "house",
+    "price": 630,
+    "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.367540000000005,
+      "longitude": 4.883976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.3
+  },
+  {
+    "id": "34ed39fa-4158-434f-a946-4480c786938a",
+    "title": "Wood and stone place",
+    "type": "apartment",
+    "price": 459,
+    "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.361540000000005,
+      "longitude": 4.883976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.3
+  },
+  {
+    "id": "7b947659-eea0-480b-970e-161b7f51ce76",
+    "title": "Nice, cozy, warm big bed apartment",
+    "type": "apartment",
+    "price": 303,
+    "previewImage": "https://13.design.pages.academy/static/hotel/12.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.35754,
+      "longitude": 4.9179759999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3
+  },
+  {
+    "id": "ab14e22a-371e-4503-b88a-2324da315add",
+    "title": "Canal View Prinsengracht",
+    "type": "hotel",
+    "price": 125,
+    "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.37854,
+      "longitude": 4.894976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.2
+  },
+  {
+    "id": "9b133c9b-0e8c-48ea-9832-13484aedc076",
+    "title": "Nice, cozy, warm big bed apartment",
+    "type": "house",
+    "price": 860,
+    "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.36854,
+      "longitude": 4.887976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.1
+  },
+  {
+    "id": "ae5ea2dc-a4fc-4e41-a054-ee5ee117ecd7",
+    "title": "Nice, cozy, warm big bed apartment",
+    "type": "house",
+    "price": 960,
+    "previewImage": "https://13.design.pages.academy/static/hotel/12.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.370540000000005,
+      "longitude": 4.9099759999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.3
+  },
+  {
+    "id": "a27cbb66-cb14-4733-b2b2-71ff26d947a6",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "apartment",
+    "price": 200,
+    "previewImage": "https://13.design.pages.academy/static/hotel/8.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.389540000000004,
+      "longitude": 4.883976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.9
+  },
+  {
+    "id": "61baf40d-0ca7-4d77-8aec-f76543cbc0aa",
+    "title": "Wood and stone place",
+    "type": "house",
+    "price": 135,
+    "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.35054,
+      "longitude": 4.908976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.8
+  },
+  {
+    "id": "82a5316e-3de1-46c4-b9ad-b9241af39dc0",
+    "title": "The Joshua Tree House",
+    "type": "room",
+    "price": 237,
+    "previewImage": "https://13.design.pages.academy/static/hotel/4.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.37154,
+      "longitude": 4.889976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.6
+  },
+  {
+    "id": "c708633e-dccc-4b22-a52d-c0a7e3e4a490",
+    "title": "Beautiful & luxurious apartment at great location",
+    "type": "house",
+    "price": 461,
+    "previewImage": "https://13.design.pages.academy/static/hotel/18.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.364540000000005,
+      "longitude": 4.9019759999999994,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.4
+  },
+  {
+    "id": "befbdb3f-ca9d-4b2a-94fe-449437e1d2bb",
+    "title": "Beautiful & luxurious apartment at great location",
+    "type": "apartment",
+    "price": 475,
+    "previewImage": "https://13.design.pages.academy/static/hotel/1.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.36354,
+      "longitude": 4.911976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.2
+  },
+  {
+    "id": "2415f0f9-9aae-411d-bf4b-7143f5bf80fc",
+    "title": "Waterfront with extraordinary view",
+    "type": "hotel",
+    "price": 411,
+    "previewImage": "https://13.design.pages.academy/static/hotel/13.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.36354,
+      "longitude": 4.889976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.7
+  },
+  {
+    "id": "57f98b54-257b-4ecb-9228-e38ea71dd978",
+    "title": "Waterfront with extraordinary view",
+    "type": "house",
+    "price": 561,
+    "previewImage": "https://13.design.pages.academy/static/hotel/10.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.388540000000006,
+      "longitude": 4.899976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.5
+  },
+  {
+    "id": "1067b97c-7dd6-4ce1-9937-0a7b3c4e9ed7",
+    "title": "House in countryside",
+    "type": "room",
+    "price": 240,
+    "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.36954,
+      "longitude": 4.914976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.7
+  },
+  {
+    "id": "f2f184ae-6f2a-4a34-98a6-afa208b410ab",
+    "title": "The house among olive ",
+    "type": "hotel",
+    "price": 436,
+    "previewImage": "https://13.design.pages.academy/static/hotel/8.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.37554,
+      "longitude": 4.9019759999999994,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.1
+  },
+  {
+    "id": "dad17a99-3056-4326-91bf-3be16c833ecf",
+    "title": "Loft Studio in the Central Area",
+    "type": "room",
+    "price": 119,
+    "previewImage": "https://13.design.pages.academy/static/hotel/17.jpg",
+    "city": {
+      "name": "Amsterdam",
+      "location": {
+        "latitude": 52.37454,
+        "longitude": 4.897976,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 52.385540000000006,
+      "longitude": 4.886976,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3
+  },
+  {
+    "id": "49e10ebc-abb0-436b-8b91-1cc0457b24b7",
+    "title": "Penthouse, 4-5 rooms + 5 balconies",
+    "type": "hotel",
+    "price": 342,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.528341000000005,
+      "longitude": 10.018654000000002,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.3
+  },
+  {
+    "id": "b5343bcb-9f93-409f-9627-790482c02a4e",
+    "title": "House in countryside",
+    "type": "house",
+    "price": 878,
+    "previewImage": "https://13.design.pages.academy/static/hotel/10.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.538341,
+      "longitude": 9.976654000000002,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.5
+  },
+  {
+    "id": "83f534c7-dc7d-4203-b634-f11ee8a86418",
+    "title": "Waterfront with extraordinary view",
+    "type": "apartment",
+    "price": 119,
+    "previewImage": "https://13.design.pages.academy/static/hotel/17.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.563341,
+      "longitude": 10.019654000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.8
+  },
+  {
+    "id": "9a45001f-ccbe-4dfb-a4fc-11b709a40ed0",
+    "title": "Penthouse, 4-5 rooms + 5 balconies",
+    "type": "room",
+    "price": 240,
+    "previewImage": "https://13.design.pages.academy/static/hotel/1.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.529341,
+      "longitude": 9.975654,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.2
+  },
+  {
+    "id": "f22c86ef-14a7-41fc-bcb3-27403e0e6a3c",
+    "title": "Waterfront with extraordinary view",
+    "type": "room",
+    "price": 224,
+    "previewImage": "https://13.design.pages.academy/static/hotel/13.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.565341,
+      "longitude": 9.980654000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 4.9
+  },
+  {
+    "id": "72554860-fee9-450f-938a-bd8820c1b2dd",
+    "title": "The Pondhouse - A Magical Place",
+    "type": "room",
+    "price": 144,
+    "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.546341000000005,
+      "longitude": 10.022654000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.2
+  },
+  {
+    "id": "103abd05-9a78-4afc-9c8c-deadc8e91f09",
+    "title": "Wood and stone place",
+    "type": "house",
+    "price": 414,
+    "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.565341000000004,
+      "longitude": 9.978654,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.2
+  },
+  {
+    "id": "cd601ae5-70db-4544-a2f2-bb4f0a9777ea",
+    "title": "The Pondhouse - A Magical Place",
+    "type": "hotel",
+    "price": 442,
+    "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.570341000000006,
+      "longitude": 9.975654,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.2
+  },
+  {
+    "id": "d0b7585e-03fa-4e72-a2f7-afd9f137c679",
+    "title": "The Pondhouse - A Magical Place",
+    "type": "apartment",
+    "price": 222,
+    "previewImage": "https://13.design.pages.academy/static/hotel/12.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.558341000000006,
+      "longitude": 10.001654,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.4
+  },
+  {
+    "id": "cb08f945-00b5-400d-9cbc-88fc88ed3d78",
+    "title": "House in countryside",
+    "type": "room",
+    "price": 274,
+    "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.573341000000006,
+      "longitude": 10.009654000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.6
+  },
+  {
+    "id": "45a2af7b-f0aa-45c8-8316-1e2ee8629bb2",
+    "title": "Loft Studio in the Central Area",
+    "type": "apartment",
+    "price": 482,
+    "previewImage": "https://13.design.pages.academy/static/hotel/3.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.573341000000006,
+      "longitude": 9.994654,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.7
+  },
+  {
+    "id": "dae44209-6b78-4976-805c-20c3c621648d",
+    "title": "The Joshua Tree House",
+    "type": "room",
+    "price": 154,
+    "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.528341000000005,
+      "longitude": 9.982654,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.2
+  },
+  {
+    "id": "a3644af7-a220-4c98-82e4-013b297f89ea",
+    "title": "House in countryside",
+    "type": "room",
+    "price": 180,
+    "previewImage": "https://13.design.pages.academy/static/hotel/4.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.540341000000005,
+      "longitude": 10.025654000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.9
+  },
+  {
+    "id": "94a65fc7-9443-4ebe-b81d-848af5173072",
+    "title": "House in countryside",
+    "type": "house",
+    "price": 189,
+    "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.555341000000006,
+      "longitude": 9.975654,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.7
+  },
+  {
+    "id": "dbdc2acd-bafd-4225-9158-0ab3e5e88253",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "house",
+    "price": 741,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.534341000000005,
+      "longitude": 9.998654,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.9
+  },
+  {
+    "id": "387a9ffc-3c00-46fa-ba7c-4701f64c6677",
+    "title": "Nice, cozy, warm big bed apartment",
+    "type": "room",
+    "price": 280,
+    "previewImage": "https://13.design.pages.academy/static/hotel/13.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.563341,
+      "longitude": 9.975654,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.4
+  },
+  {
+    "id": "b9251e12-a7cc-4a5a-8583-e3b2db96a11b",
+    "title": "The Joshua Tree House",
+    "type": "hotel",
+    "price": 310,
+    "previewImage": "https://13.design.pages.academy/static/hotel/17.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.574341000000004,
+      "longitude": 10.022654000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.9
+  },
+  {
+    "id": "c661e3b7-b573-49dc-b641-c59726955be0",
+    "title": "Waterfront with extraordinary view",
+    "type": "house",
+    "price": 584,
+    "previewImage": "https://13.design.pages.academy/static/hotel/20.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.573341000000006,
+      "longitude": 10.025654000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.8
+  },
+  {
+    "id": "52e92597-c0d4-4093-8689-5a16cd54c333",
+    "title": "Tile House",
+    "type": "room",
+    "price": 279,
+    "previewImage": "https://13.design.pages.academy/static/hotel/13.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.550341,
+      "longitude": 9.980654000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.1
+  },
+  {
+    "id": "d217ef74-037b-485a-ba7d-65e330b2df7a",
+    "title": "The house among olive ",
+    "type": "room",
+    "price": 146,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Hamburg",
+      "location": {
+        "latitude": 53.550341,
+        "longitude": 10.000654,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 53.558341000000006,
+      "longitude": 9.999654000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.6
+  },
+  {
+    "id": "a8552c19-39ce-40e2-b26b-1e35bf8bc93d",
+    "title": "House in countryside",
+    "type": "hotel",
+    "price": 108,
+    "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.236402000000005,
+      "longitude": 6.784314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.6
+  },
+  {
+    "id": "c6908899-9a5f-49c1-bcb8-87b9da4b9795",
+    "title": "Tile House",
+    "type": "house",
+    "price": 355,
+    "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.210402,
+      "longitude": 6.798314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3
+  },
+  {
+    "id": "5cf0803b-2bd8-4b76-a61e-fc96266143ce",
+    "title": "The Pondhouse - A Magical Place",
+    "type": "house",
+    "price": 286,
+    "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.211402,
+      "longitude": 6.756314000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3
+  },
+  {
+    "id": "deb79d78-51e7-4394-83df-aaf1f2c68820",
+    "title": "Waterfront with extraordinary view",
+    "type": "hotel",
+    "price": 418,
+    "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.228402,
+      "longitude": 6.784314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.1
+  },
+  {
+    "id": "435d0de3-1861-4041-aee0-13adf3435623",
+    "title": "Perfectly located Castro",
+    "type": "apartment",
+    "price": 421,
+    "previewImage": "https://13.design.pages.academy/static/hotel/17.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.204402,
+      "longitude": 6.7773140000000005,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.7
+  },
+  {
+    "id": "0319f705-b3a3-43a9-beaa-5e89d20ca1ea",
+    "title": "Beautiful & luxurious apartment at great location",
+    "type": "house",
+    "price": 173,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.217402,
+      "longitude": 6.7693140000000005,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.7
+  },
+  {
+    "id": "b9b59eb1-70ad-4556-adbd-a3f2f4f83d80",
+    "title": "The Pondhouse - A Magical Place",
+    "type": "hotel",
+    "price": 111,
+    "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.241402,
+      "longitude": 6.782314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.6
+  },
+  {
+    "id": "fef2a233-d69c-4d94-b391-78347a639338",
+    "title": "House in countryside",
+    "type": "apartment",
+    "price": 347,
+    "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.235402,
+      "longitude": 6.800314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1
+  },
+  {
+    "id": "93ef9d16-4577-434f-88b3-0b1a77c7a240",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "room",
+    "price": 277,
+    "previewImage": "https://13.design.pages.academy/static/hotel/4.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.237402,
+      "longitude": 6.779314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.1
+  },
+  {
+    "id": "5b1dd894-2956-4ea6-9820-45ae40a70a74",
+    "title": "The house among olive ",
+    "type": "apartment",
+    "price": 383,
+    "previewImage": "https://13.design.pages.academy/static/hotel/12.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.237402,
+      "longitude": 6.797314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.8
+  },
+  {
+    "id": "9072d719-8152-4225-bf0b-4698c7bfae2f",
+    "title": "The house among olive ",
+    "type": "apartment",
+    "price": 108,
+    "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.222402,
+      "longitude": 6.786314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.5
+  },
+  {
+    "id": "5bdde8b8-f206-446b-a9a6-35a2c7aa22d0",
+    "title": "Nice, cozy, warm big bed apartment",
+    "type": "apartment",
+    "price": 164,
+    "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.232402,
+      "longitude": 6.800314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3
+  },
+  {
+    "id": "6a09a15a-b798-474a-831f-9bace7946103",
+    "title": "Waterfront with extraordinary view",
+    "type": "apartment",
+    "price": 405,
+    "previewImage": "https://13.design.pages.academy/static/hotel/13.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.216402,
+      "longitude": 6.758314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.3
+  },
+  {
+    "id": "50696946-30ed-4880-a44b-5f342070073d",
+    "title": "The Pondhouse - A Magical Place",
+    "type": "apartment",
+    "price": 147,
+    "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.205402,
+      "longitude": 6.7613140000000005,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.7
+  },
+  {
+    "id": "8b492efd-36c6-49c7-a23f-e5f4cd57fc0b",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "apartment",
+    "price": 238,
+    "previewImage": "https://13.design.pages.academy/static/hotel/8.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.248402000000006,
+      "longitude": 6.763314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 4.6
+  },
+  {
+    "id": "34d83d25-8f78-4501-bccf-b88e207bfdc6",
+    "title": "Nice, cozy, warm big bed apartment",
+    "type": "apartment",
+    "price": 294,
+    "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.250402,
+      "longitude": 6.7853140000000005,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.7
+  },
+  {
+    "id": "81f5e763-d017-4709-a3db-4f218452a7b9",
+    "title": "The Pondhouse - A Magical Place",
+    "type": "apartment",
+    "price": 488,
+    "previewImage": "https://13.design.pages.academy/static/hotel/1.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.239402000000005,
+      "longitude": 6.756314000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 3.4
+  },
+  {
+    "id": "ca33db12-ec2a-404e-baa5-ae42c2a7e719",
+    "title": "Loft Studio in the Central Area",
+    "type": "house",
+    "price": 242,
+    "previewImage": "https://13.design.pages.academy/static/hotel/11.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.243402,
+      "longitude": 6.791314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.5
+  },
+  {
+    "id": "f290ce9c-7028-47d7-9f44-1b9acc499944",
+    "title": "The house among olive ",
+    "type": "room",
+    "price": 205,
+    "previewImage": "https://13.design.pages.academy/static/hotel/10.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.214402,
+      "longitude": 6.764314000000001,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 3.9
+  },
+  {
+    "id": "6b8eb3a8-3f2a-4a7f-8e16-42b3fada5fc6",
+    "title": "Perfectly located Castro",
+    "type": "room",
+    "price": 228,
+    "previewImage": "https://13.design.pages.academy/static/hotel/20.jpg",
+    "city": {
+      "name": "Dusseldorf",
+      "location": {
+        "latitude": 51.225402,
+        "longitude": 6.776314,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 51.225402,
+      "longitude": 6.784314,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2.2
+  }
+]
