@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { CitiesListType } from '../../types/cities-types';
 
 type CitiesFilterProps = {
@@ -10,9 +11,9 @@ export default function CitiesFilter({cityList}: CitiesFilterProps): JSX.Element
       <ul className="locations__list tabs__list">
         {cityList.map((item) => (
           <li key={item.name} className="locations__item">
-            <a className={`locations__item-link tabs__item ${item.isActive ? 'tabs__item--active' : ''}`} href="#" >
+            <Link to='/' className={`locations__item-link tabs__item ${item.isActive ? 'tabs__item--active' : ''}`} >
               <span>{item.name}</span>
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
