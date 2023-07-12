@@ -6,6 +6,8 @@ import NotFoundPage from '../../pages/not-found-page/not-found-page';
 import OfferPage from '../../pages/offer-page/offer-page';
 import { CitiesListType } from '../../types/cities-types';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PrivateRoute from '../private-route/private-route';
+import { AuthStatus } from '../../constants/auth-status';
 
 type AppProps = {
   pageCardCount: number;
@@ -23,7 +25,12 @@ export default function App(props: AppProps): JSX.Element {
         <Route path={AppRoute.Main} element={<MainPage placesCount={pageCardCount} offerCount={offerByCityCount} cityList={cityList} />} />
         <Route path={AppRoute.Login} element={<LoginPage />} />
         <Route path={AppRoute.Offer} element={<OfferPage />} />
-        <Route path={AppRoute.Favorites} element={<FavoritesPage />} />
+        <Route path={AppRoute.Favorites} element={
+          <PrivateRoute authStatus={AuthStatus.NoAuth}>
+            <FavoritesPage />
+          </PrivateRoute>
+        }
+        />
         <Route path='*' element={<NotFoundPage />} />
 
       </Routes>
