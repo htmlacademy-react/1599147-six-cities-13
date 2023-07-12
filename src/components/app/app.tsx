@@ -1,3 +1,4 @@
+import { AppRoute } from '../../constants/app-routes';
 import MainPage from '../../pages/main-page/main-page';
 import { CitiesListType } from '../../types/cities-types';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -15,7 +16,7 @@ export default function App(props: AppProps): JSX.Element {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<MainPage placesCount={pageCardCount} offerCount={offerByCityCount} cityList={cityList}/> } />
+        <Route path={AppRoute.Main} element={<MainPage placesCount={pageCardCount} offerCount={offerByCityCount} cityList={cityList}/> } />
       </Routes>
     </BrowserRouter>
 
