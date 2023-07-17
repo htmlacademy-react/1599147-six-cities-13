@@ -1,4 +1,5 @@
-export enum AuthStatus {
-  Auth ='AUTH',
-  NoAuth = 'NOAUTH'
-}
+export const AuthStatus = {
+  Auth:'AUTH',
+  NoAuth: 'NOAUTH'
+} as const ;
+export type AuthStatusType = typeof AuthStatus[keyof typeof AuthStatus]

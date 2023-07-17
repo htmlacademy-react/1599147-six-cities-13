@@ -35,7 +35,7 @@ export default function App(props: AppProps): JSX.Element {
             />
             <Route path={AppRoute.Login} element={<LoginPage />} />
           </Route>
-          <Route path='*' element={<NotFoundPage />} />
+          <Route path={AppRoute.Any} element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
