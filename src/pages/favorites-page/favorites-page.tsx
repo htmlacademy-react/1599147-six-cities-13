@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+
 import FavoriteLocationItems from '../../components/favorite-location-items/favorite-location-items';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/header/header';
-import { Helmet } from 'react-helmet-async';
 
 export default function FavoritesPage():JSX.Element {
   return (

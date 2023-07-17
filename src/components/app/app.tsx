@@ -1,14 +1,18 @@
-import { AppRoute } from '../../constants/app-routes';
+import { HelmetProvider } from 'react-helmet-async';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import { CitiesListType } from '../../types/cities-types';
+
+import PrivateRoute from '../private-route/private-route';
+
 import FavoritesPage from '../../pages/favorites-page/favorites-page';
 import LoginPage from '../../pages/login-page/login-page';
 import MainPage from '../../pages/main-page/main-page';
 import NotFoundPage from '../../pages/not-found-page/not-found-page';
 import OfferPage from '../../pages/offer-page/offer-page';
-import { CitiesListType } from '../../types/cities-types';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import PrivateRoute from '../private-route/private-route';
+
+import { AppRoute } from '../../constants/app-routes';
 import { AuthStatus } from '../../constants/auth-status';
-import { HelmetProvider } from 'react-helmet-async';
 
 type AppProps = {
   pageCardCount: number;

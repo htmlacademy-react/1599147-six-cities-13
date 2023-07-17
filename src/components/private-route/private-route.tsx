@@ -1,7 +1,8 @@
+import { PropsWithChildren, ReactNode } from 'react';
 import { Navigate } from 'react-router-dom';
+
 import { AuthStatus, AuthStatusType } from '../../constants/auth-status';
 import { AppRoute } from '../../constants/app-routes';
-import { PropsWithChildren, ReactNode } from 'react';
 
 type PrivateRouteProps = PropsWithChildren<{
   authStatus: AuthStatusType;

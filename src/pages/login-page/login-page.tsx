@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import Logo from '../../components/logo/logo';
 import { Helmet } from 'react-helmet-async';
+
+import Logo from '../../components/logo/logo';
 
 export default function LoginPage():JSX.Element {
   return (

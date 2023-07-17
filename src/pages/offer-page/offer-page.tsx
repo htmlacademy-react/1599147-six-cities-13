@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+
 import Header from '../../components/header/header';
 import NewReview from '../../components/new-review/new-review';
 import ReviewList from '../../components/review-list/review-list';
-import { Helmet } from 'react-helmet-async';
 
 export default function OfferPage(): JSX.Element {
   return (
