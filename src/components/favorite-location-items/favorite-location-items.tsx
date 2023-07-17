@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
+import { AppRoute } from '../../constants/app-routes';
 
 export default function FavoriteLocationItems(): JSX.Element {
   return (
     <li className="favorites__locations-items">
       <div className="favorites__locations locations locations--current">
         <div className="locations__item">
-          <Link to='/' className="locations__item-link">
+          <Link to={AppRoute.Root} className="locations__item-link">
             <span>Amsterdam</span>
           </Link>
         </div>
