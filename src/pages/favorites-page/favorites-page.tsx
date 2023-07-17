@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+
 import FavoriteLocationItems from '../../components/favorite-location-items/favorite-location-items';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/header/header';
@@ -5,6 +8,9 @@ import Header from '../../components/header/header';
 export default function FavoritesPage():JSX.Element {
   return (
     <div className="page">
+      <Helmet>
+        <title>6 cities: favorites</title>
+      </Helmet>
       <Header />
 
       <main className="page__main page__main--favorites">
@@ -17,17 +23,17 @@ export default function FavoritesPage():JSX.Element {
               <li className="favorites__locations-items">
                 <div className="favorites__locations locations locations--current">
                   <div className="locations__item">
-                    <a className="locations__item-link" href="#">
+                    <Link to='/' className="locations__item-link">
                       <span>Cologne</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="favorites__places">
                   <article className="favorites__card place-card">
                     <div className="favorites__image-wrapper place-card__image-wrapper">
-                      <a href="#">
+                      <Link to='offer/1234'>
                         <img className="place-card__image" src="img/apartment-small-04.jpg" width="150" height="110" alt="Place image"/>
-                      </a>
+                      </Link>
                     </div>
                     <div className="favorites__card-info place-card__info">
                       <div className="place-card__price-wrapper">
@@ -49,7 +55,7 @@ export default function FavoritesPage():JSX.Element {
                         </div>
                       </div>
                       <h2 className="place-card__name">
-                        <a href="#">White castle</a>
+                        <Link to='offer/1234'>White castle</Link>
                       </h2>
                       <p className="place-card__type">Apartment</p>
                     </div>

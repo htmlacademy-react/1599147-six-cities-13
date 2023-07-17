@@ -1,9 +1,13 @@
+import { Link } from 'react-router-dom';
+import { AppRoute } from '../../constants/app-routes';
+
 export default function Footer(): JSX.Element {
   return (
+    //TODO - уиверсальный лого сделать
     <footer className="footer">
-      <a className="footer__logo-link" href="main.html">
+      <Link to={AppRoute.Root} className="footer__logo-link" >
         <img className="footer__logo" src="img/logo.svg" alt="6 cities logo" width="64" height="33"/>
-      </a>
+      </Link>
     </footer>
   );
 }
