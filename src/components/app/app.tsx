@@ -24,17 +24,18 @@ export default function App(props: AppProps): JSX.Element {
     <HelmetProvider>
       <BrowserRouter>
         <Routes>
-          <Route path={AppRoute.Main} element={<MainPage placesCount={pageCardCount} offerCount={offerByCityCount} cityList={cityList} />} />
-          <Route path={AppRoute.Login} element={<LoginPage />} />
-          <Route path={AppRoute.Offer} element={<OfferPage />} />
-          <Route path={AppRoute.Favorites} element={
-            <PrivateRoute authStatus={AuthStatus.NoAuth}>
-              <FavoritesPage />
-            </PrivateRoute>
-          }
-          />
+          <Route path={AppRoute.Root}>
+            <Route index path={AppRoute.Root} element={<MainPage placesCount={pageCardCount} offerCount={offerByCityCount} cityList={cityList} />} />
+            <Route path={AppRoute.Offer} element={<OfferPage />} />
+            <Route path={AppRoute.Favorites} element={
+              <PrivateRoute authStatus={AuthStatus.NoAuth}>
+                <FavoritesPage />
+              </PrivateRoute>
+            }
+            />
+            <Route path={AppRoute.Login} element={<LoginPage />} />
+          </Route>
           <Route path='*' element={<NotFoundPage />} />
-
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
