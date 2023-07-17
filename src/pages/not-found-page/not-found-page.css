@@ -1,0 +1,46 @@
+.page--not-found{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.page__main--not-found {
+  display: flex;
+  flex-grow: 1;
+  padding-top: 11px;
+}
+
+.not-found-text {
+  width: 100%;
+  padding: 0 0 93px 38px;
+  border-bottom: 2px solid rgba(222,222,222,.5);
+}
+
+.not-found__wrapper{
+  width: 420px;
+  margin-top: 16.7vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 94px;
+  text-align: center;
+  background-image: url(../img/ico-saved.svg);
+  background-size: 60px 73px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.not-found__status {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 32px;
+  line-height: 1.1875;
+}
+
+
+.not-found__status-description {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
