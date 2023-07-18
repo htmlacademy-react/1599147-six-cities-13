@@ -1,7 +1,7 @@
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { CitiesListType } from '../../types/cities-types';
+import { CitiesList } from '../../types/cities-types';
 
 import PrivateRoute from '../private-route/private-route';
 
@@ -17,7 +17,7 @@ import { AuthStatus } from '../../constants/auth-status';
 type AppProps = {
   pageCardCount: number;
   offerByCityCount: number;
-  cityList: CitiesListType;
+  cityList: CitiesList;
 }
 
 export default function App(props: AppProps): JSX.Element {
