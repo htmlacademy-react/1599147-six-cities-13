@@ -1,19 +1,19 @@
-import CitiesList from '../../components/cities-filter/cities-filter';
-import CityCard from '../../components/city-card/city-card';
+import CitiesFilter from '../../components/cities-filter/cities-filter';
+import OfferCard from '../../components/offer-card/offer-card';
 import Header from '../../components/header/header';
 import SortForm from '../../components/sort-form/sort-form';
-import { CitiesListType } from '../../types/cities-types';
+import { cityList } from '../../constants/cities-list';
+import { OfferList } from '../../types/offer-types';
 
 
 type MainPageProps = {
-  placesCount: number;
   offerCount: number;
-  cityList: CitiesListType;
+  offersList: OfferList;
 }
 
 export default function MainPage(props : MainPageProps): JSX.Element {
 
-  const fakeArray = Array.from({ length: props.placesCount }, (value, index) => index);
+  // const fakeArray = Array.from({ length: props.placesCount }, (value, index) => index);
 
   return (
     <div className="page page--gray page--main">
@@ -22,16 +22,19 @@ export default function MainPage(props : MainPageProps): JSX.Element {
       <main className="page__main page__main--index">
         <h1 className="visually-hidden">Cities</h1>
         <div className="tabs">
-          <CitiesList cityList={props.cityList} />
+          <CitiesFilter cityList={cityList} />
         </div>
         <div className="cities">
           <div className="cities__places-container container">
+            {/* в  секцию "places" передается список, отфильтрованный по городу + имя города !!!
+            так же как и в фаворитах (фавориты сгруппированы по городам) надо ли выделять в самостоятельный компонент ?*/}
             <section className="cities__places places">
               <h2 className="visually-hidden">Places</h2>
               <b className="places__found">{props.offerCount} places to stay in Amsterdam</b>
+              {/* сомневаюсь в выделении SortForm*/}
               <SortForm />
               <div className="cities__places-list places__list tabs__content">
-                {fakeArray.map((item) => <CityCard key={item} />)}
+                {props.offersList.map((item) => <OfferCard offerItem={item} isMainPage key={item.id} />)}
 
               </div>
             </section>
