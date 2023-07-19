@@ -6,14 +6,21 @@ import { calcRatingWidth } from '../../utils/utils.ts';
 
 type OfferCardProps = {
   offerItem: Offer;
+  onMouseEnter?: (id:string) => void ;
+  onMouseLeave?: () => void;
   isMainPage?: boolean;
   isFavoritePage?: boolean;
 }
 
-export default function OfferCard({offerItem, isMainPage = false, isFavoritePage = false}: OfferCardProps): JSX.Element {
+export default function OfferCard({
+  offerItem,
+  onMouseEnter = () => null,
+  onMouseLeave = ()=> null,
+  isMainPage = false,
+  isFavoritePage = false }: OfferCardProps): JSX.Element {
 
   return (
-    <article className={cn(
+    <article onMouseEnter={() => onMouseEnter(offerItem.id)} onMouseLeave={onMouseLeave} className={cn(
       { 'cities__card': isMainPage },
       {'place-card': isMainPage},
       {'favorites__card': isFavoritePage}

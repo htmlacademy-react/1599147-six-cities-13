@@ -13,18 +13,17 @@ import OfferPage from '../../pages/offer-page/offer-page';
 
 import { AppRoute } from '../../constants/app-routes';
 import { AuthStatus } from '../../constants/auth-status';
-import { OfferList } from '../../types/offer-types';
+import { FavoriteGroupType, OfferList } from '../../types/offer-types';
 
 type AppProps = {
   offerByCityCount: number;
   offerList: OfferList;
+  favoriteList: FavoriteGroupType;
 }
 
 export default function App(props: AppProps): JSX.Element {
 
-  const { offerByCityCount, offerList } = props;
-
-  // console.log(offerList);
+  const { offerByCityCount, offerList, favoriteList } = props;
 
   return (
     <HelmetProvider>
@@ -34,8 +33,8 @@ export default function App(props: AppProps): JSX.Element {
             <Route index path={AppRoute.Root} element={<MainPage offerCount={offerByCityCount} offersList={offerList} />} />
             <Route path={AppRoute.Offer} element={<OfferPage />} />
             <Route path={AppRoute.Favorites} element={
-              <PrivateRoute authStatus={AuthStatus.NoAuth}>
-                <FavoritesPage />
+              <PrivateRoute authStatus={AuthStatus.Auth}>
+                <FavoritesPage favoriteGroupList={favoriteList}/>
               </PrivateRoute>
             }
             />

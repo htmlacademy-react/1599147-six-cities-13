@@ -47,3 +47,5 @@ export type Host = {
   name: string;
   avatarUrl: string;
 }
+
+export type FavoriteGroupType = [string, Offer[]][]
