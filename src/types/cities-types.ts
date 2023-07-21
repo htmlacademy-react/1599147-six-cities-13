@@ -1,6 +1,6 @@
-export type CityType = {
+export type CityItem = {
   name: string;
   isActive: boolean;
 }
 
-export type CitiesListType = CityType[];
+export type CityList = CityItem[];

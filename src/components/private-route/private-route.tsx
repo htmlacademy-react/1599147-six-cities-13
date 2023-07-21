@@ -12,7 +12,7 @@ export default function PrivateRoute(props: PrivateRouteProps): ReactNode {
   const { authStatus, children } = props;
 
   return (
-    authStatus === AuthStatus.Auth ? children : <Navigate to={ `${AppRoute.Root}${AppRoute.Login}` } />
+    authStatus === AuthStatus.Auth ? children : <Navigate to={ AppRoute.Login} />
   );
 
 }

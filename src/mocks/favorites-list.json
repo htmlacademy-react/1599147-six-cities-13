@@ -1,0 +1,1083 @@
+[
+    {
+        "id": "2c4e2067-04bd-4636-a1c2-c749fa7e2d85",
+        "title": "The Joshua Tree House",
+        "type": "apartment",
+        "price": 404,
+        "previewImage": "https://13.design.pages.academy/static/hotel/20.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.868610000000004,
+            "longitude": 2.342499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 2.8
+    },
+    {
+        "id": "117ad30a-0624-4643-a7db-141b96ddff3d",
+        "title": "Beautiful & luxurious apartment at great location",
+        "type": "apartment",
+        "price": 184,
+        "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.858610000000006,
+            "longitude": 2.330499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 2
+    },
+    {
+        "id": "af4d9c3e-759d-4ec7-803b-89da823b39a5",
+        "title": "Amazing and Extremely Central Flat",
+        "type": "hotel",
+        "price": 214,
+        "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.834610000000005,
+            "longitude": 2.335499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 1.1
+    },
+    {
+        "id": "9164db65-183c-4ab7-a00c-c57b18dafeea",
+        "title": "Amazing and Extremely Central Flat",
+        "type": "house",
+        "price": 241,
+        "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.85761,
+            "longitude": 2.358499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 2
+    },
+    {
+        "id": "425894d3-2bfb-452e-8405-3e8a91720dc1",
+        "title": "House in countryside",
+        "type": "house",
+        "price": 986,
+        "previewImage": "https://13.design.pages.academy/static/hotel/11.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.87561,
+            "longitude": 2.375499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 1.5
+    },
+    {
+        "id": "8acaa46d-4b84-428a-a49d-722f68f444eb",
+        "title": "Canal View Prinsengracht",
+        "type": "house",
+        "price": 918,
+        "previewImage": "https://13.design.pages.academy/static/hotel/8.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.87961000000001,
+            "longitude": 2.353499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 3
+    },
+    {
+        "id": "1747a393-b878-4e66-9c0d-a6ab37d09127",
+        "title": "Tile House",
+        "type": "hotel",
+        "price": 424,
+        "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.834610000000005,
+            "longitude": 2.364499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 4.9
+    },
+    {
+        "id": "d23bb19d-88cb-45d0-b8c4-f5c33d0162cc",
+        "title": "Beautiful & luxurious apartment at great location",
+        "type": "hotel",
+        "price": 329,
+        "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.837610000000005,
+            "longitude": 2.3454990000000002,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 1.4
+    },
+    {
+        "id": "bd5bbd52-1de9-4f8e-b950-e12932e020f6",
+        "title": "Penthouse, 4-5 rooms + 5 balconies",
+        "type": "house",
+        "price": 404,
+        "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.84761,
+            "longitude": 2.356499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 4.2
+    },
+    {
+        "id": "bbced644-7779-4644-aba7-4f693a4e2a12",
+        "title": "Canal View Prinsengracht",
+        "type": "room",
+        "price": 171,
+        "previewImage": "https://13.design.pages.academy/static/hotel/8.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.862610000000004,
+            "longitude": 2.369499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 2.8
+    },
+    {
+        "id": "60178ad4-8111-41f9-b84a-0b3b96bb524c",
+        "title": "Penthouse, 4-5 rooms + 5 balconies",
+        "type": "house",
+        "price": 922,
+        "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.83861,
+            "longitude": 2.350499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 1.7
+    },
+    {
+        "id": "e1779c33-df05-4383-9a6e-1718ed66c449",
+        "title": "Canal View Prinsengracht",
+        "type": "hotel",
+        "price": 310,
+        "previewImage": "https://13.design.pages.academy/static/hotel/18.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.861610000000006,
+            "longitude": 2.340499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 1.5
+    },
+    {
+        "id": "3f4c48fa-09e3-4aa1-87f6-dfb26b0dc8de",
+        "title": "Amazing and Extremely Central Flat",
+        "type": "house",
+        "price": 785,
+        "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.87861,
+            "longitude": 2.357499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 1.6
+    },
+    {
+        "id": "d5364003-75a3-41f4-a86c-8ee613e4dfed",
+        "title": "The house among olive ",
+        "type": "apartment",
+        "price": 258,
+        "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.877610000000004,
+            "longitude": 2.333499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 4.7
+    },
+    {
+        "id": "701fb762-e0ab-46fc-8b88-be0660c00831",
+        "title": "Tile House",
+        "type": "apartment",
+        "price": 236,
+        "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.83961,
+            "longitude": 2.342499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 3
+    },
+    {
+        "id": "966a24b1-8171-4151-956b-50ef0b9067e1",
+        "title": "Penthouse, 4-5 rooms + 5 balconies",
+        "type": "hotel",
+        "price": 222,
+        "previewImage": "https://13.design.pages.academy/static/hotel/3.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.865610000000004,
+            "longitude": 2.350499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 4
+    },
+    {
+        "id": "4cadf5b2-136e-4bef-b22d-d3411ae69942",
+        "title": "Amazing and Extremely Central Flat",
+        "type": "house",
+        "price": 646,
+        "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.846610000000005,
+            "longitude": 2.374499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 1.4
+    },
+    {
+        "id": "e16feca3-f479-4384-8b65-527d35417035",
+        "title": "Beautiful & luxurious apartment at great location",
+        "type": "hotel",
+        "price": 278,
+        "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.837610000000005,
+            "longitude": 2.364499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 3.6
+    },
+    {
+        "id": "4b5f7922-a4c8-4e78-88dc-4883d27f33fd",
+        "title": "The house among olive ",
+        "type": "hotel",
+        "price": 115,
+        "previewImage": "https://13.design.pages.academy/static/hotel/3.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.843610000000005,
+            "longitude": 2.338499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 3.8
+    },
+    {
+        "id": "981f58e4-106f-4837-bf56-2abd288d2a03",
+        "title": "Wood and stone place",
+        "type": "room",
+        "price": 147,
+        "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+        "city": {
+            "name": "Paris",
+            "location": {
+                "latitude": 48.85661,
+                "longitude": 2.351499,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 48.84461,
+            "longitude": 2.374499,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 3.9
+    },
+    {
+        "id": "80a35bab-2b74-442e-b186-ebca0970b532",
+        "title": "House in countryside",
+        "type": "house",
+        "price": 347,
+        "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.950361,
+            "longitude": 6.961974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 4.8
+    },
+    {
+        "id": "b673a5f4-71c2-4ac9-a129-424f59e742ad",
+        "title": "The Pondhouse - A Magical Place",
+        "type": "hotel",
+        "price": 212,
+        "previewImage": "https://13.design.pages.academy/static/hotel/10.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.932361,
+            "longitude": 6.937974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 1.6
+    },
+    {
+        "id": "75ae9151-483b-4277-b522-26366a618b92",
+        "title": "Penthouse, 4-5 rooms + 5 balconies",
+        "type": "apartment",
+        "price": 437,
+        "previewImage": "https://13.design.pages.academy/static/hotel/1.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.934361,
+            "longitude": 6.943974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 2
+    },
+    {
+        "id": "32441c19-7a1a-4f44-96b2-6e78c3ee07e7",
+        "title": "Canal View Prinsengracht",
+        "type": "apartment",
+        "price": 295,
+        "previewImage": "https://13.design.pages.academy/static/hotel/16.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.947361,
+            "longitude": 6.9799739999999995,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 3.8
+    },
+    {
+        "id": "bfa0b56e-b7f2-492d-9416-7270c9085a79",
+        "title": "Tile House",
+        "type": "house",
+        "price": 536,
+        "previewImage": "https://13.design.pages.academy/static/hotel/17.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.960361,
+            "longitude": 6.967974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 1.8
+    },
+    {
+        "id": "9dc49a99-c459-46ca-83b0-08dc8791c0f8",
+        "title": "Amazing and Extremely Central Flat",
+        "type": "apartment",
+        "price": 299,
+        "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.941361,
+            "longitude": 6.956974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 2
+    },
+    {
+        "id": "281697c0-2bc0-4016-8e36-abc2365acd8a",
+        "title": "Canal View Prinsengracht",
+        "type": "hotel",
+        "price": 407,
+        "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.916361,
+            "longitude": 6.944974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 3.2
+    },
+    {
+        "id": "fed554e7-a514-48ff-877d-1823f055a0df",
+        "title": "Tile House",
+        "type": "apartment",
+        "price": 205,
+        "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.949361,
+            "longitude": 6.976974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 3.3
+    },
+    {
+        "id": "be202603-dfbb-41da-9d30-c0efa253c4b6",
+        "title": "Loft Studio in the Central Area",
+        "type": "room",
+        "price": 219,
+        "previewImage": "https://13.design.pages.academy/static/hotel/15.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.913361,
+            "longitude": 6.9509739999999995,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 4
+    },
+    {
+        "id": "1fc39641-81a6-402c-a214-ec5884f3a895",
+        "title": "Loft Studio in the Central Area",
+        "type": "apartment",
+        "price": 112,
+        "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.930361,
+            "longitude": 6.937974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 2.7
+    },
+    {
+        "id": "de6e503f-fbae-4f61-9905-e35498d066c2",
+        "title": "Waterfront with extraordinary view",
+        "type": "apartment",
+        "price": 439,
+        "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.960361,
+            "longitude": 6.9509739999999995,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 4.3
+    },
+    {
+        "id": "0403d238-9e80-4c10-b50c-957108ac9ea4",
+        "title": "Wood and stone place",
+        "type": "hotel",
+        "price": 488,
+        "previewImage": "https://13.design.pages.academy/static/hotel/1.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.918461,
+            "longitude": 6.969974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 2.1
+    },
+    {
+        "id": "27bd518b-ab36-4057-ba84-434a93da554e",
+        "title": "Perfectly located Castro",
+        "type": "apartment",
+        "price": 314,
+        "previewImage": "https://13.design.pages.academy/static/hotel/10.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.957361,
+            "longitude": 6.9509739999999995,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 1.7
+    },
+    {
+        "id": "abdeb6a4-be7c-4e5d-b4e1-9f159dedd2a2",
+        "title": "Loft Studio in the Central Area",
+        "type": "house",
+        "price": 979,
+        "previewImage": "https://13.design.pages.academy/static/hotel/11.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.951361,
+            "longitude": 6.944974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 3.7
+    },
+    {
+        "id": "a9b189a6-1d53-4975-9004-377f841394c7",
+        "title": "Amazing and Extremely Central Flat",
+        "type": "house",
+        "price": 744,
+        "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.959361,
+            "longitude": 6.978974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 4.1
+    },
+    {
+        "id": "2339ead1-e711-4982-ba31-a1d6e334d370",
+        "title": "Penthouse, 4-5 rooms + 5 balconies",
+        "type": "apartment",
+        "price": 258,
+        "previewImage": "https://13.design.pages.academy/static/hotel/3.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.932361,
+            "longitude": 6.960974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 2.3
+    },
+    {
+        "id": "c0259a8d-1a7a-45af-9738-2fe71bd14669",
+        "title": "Loft Studio in the Central Area",
+        "type": "hotel",
+        "price": 361,
+        "previewImage": "https://13.design.pages.academy/static/hotel/14.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.954361,
+            "longitude": 6.982974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 3
+    },
+    {
+        "id": "f258183f-c099-4186-9c8c-7029abf8481c",
+        "title": "Perfectly located Castro",
+        "type": "hotel",
+        "price": 161,
+        "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.945361,
+            "longitude": 6.962974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 3.5
+    },
+    {
+        "id": "42b66cfc-249d-473f-8d67-1c146a0e80b7",
+        "title": "Perfectly located Castro",
+        "type": "hotel",
+        "price": 132,
+        "previewImage": "https://13.design.pages.academy/static/hotel/6.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.917361,
+            "longitude": 6.977974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 1.3
+    },
+    {
+        "id": "34e871e4-73ea-40ea-b7b0-f83714b0d6dc",
+        "title": "Amazing and Extremely Central Flat",
+        "type": "hotel",
+        "price": 112,
+        "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+        "city": {
+            "name": "Cologne",
+            "location": {
+                "latitude": 50.938361,
+                "longitude": 6.959974,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.945361,
+            "longitude": 6.935974,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 2.8
+    },
+    {
+        "id": "8ce1921b-0af6-448a-8c79-955d319ddb14",
+        "title": "Waterfront with extraordinary view",
+        "type": "room",
+        "price": 166,
+        "previewImage": "https://13.design.pages.academy/static/hotel/9.jpg",
+        "city": {
+            "name": "Brussels",
+            "location": {
+                "latitude": 50.846557,
+                "longitude": 4.351697,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.854557,
+            "longitude": 4.364697,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 3.2
+    },
+    {
+        "id": "210fe464-3748-4bc5-9686-d1833776fd70",
+        "title": "Perfectly located Castro",
+        "type": "hotel",
+        "price": 329,
+        "previewImage": "https://13.design.pages.academy/static/hotel/2.jpg",
+        "city": {
+            "name": "Brussels",
+            "location": {
+                "latitude": 50.846557,
+                "longitude": 4.351697,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.867557,
+            "longitude": 4.371696999999999,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 2.6
+    },
+    {
+        "id": "970a60a5-12b1-4e2a-891f-91ae109111e5",
+        "title": "Tile House",
+        "type": "hotel",
+        "price": 358,
+        "previewImage": "https://13.design.pages.academy/static/hotel/13.jpg",
+        "city": {
+            "name": "Brussels",
+            "location": {
+                "latitude": 50.846557,
+                "longitude": 4.351697,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.827557,
+            "longitude": 4.336697,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 4.4
+    },
+    {
+        "id": "fa6b315e-c573-4126-bd48-2b2f04841cc3",
+        "title": "Amazing and Extremely Central Flat",
+        "type": "room",
+        "price": 167,
+        "previewImage": "https://13.design.pages.academy/static/hotel/18.jpg",
+        "city": {
+            "name": "Brussels",
+            "location": {
+                "latitude": 50.846557,
+                "longitude": 4.351697,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.833557,
+            "longitude": 4.374696999999999,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 3.5
+    },
+    {
+        "id": "e9fa6266-7e9b-42e5-a2a6-594513cb6161",
+        "title": "Tile House",
+        "type": "room",
+        "price": 135,
+        "previewImage": "https://13.design.pages.academy/static/hotel/19.jpg",
+        "city": {
+            "name": "Brussels",
+            "location": {
+                "latitude": 50.846557,
+                "longitude": 4.351697,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.837557,
+            "longitude": 4.339697,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": true,
+        "rating": 2.2
+    },
+    {
+        "id": "82e0fef3-4cfd-446f-bb24-d2fc9de2fa0c",
+        "title": "Amazing and Extremely Central Flat",
+        "type": "hotel",
+        "price": 482,
+        "previewImage": "https://13.design.pages.academy/static/hotel/7.jpg",
+        "city": {
+            "name": "Brussels",
+            "location": {
+                "latitude": 50.846557,
+                "longitude": 4.351697,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.849557,
+            "longitude": 4.374696999999999,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 1.3
+    },
+    {
+        "id": "57cf309a-5ecc-44e8-9094-0bb7b8bd88ac",
+        "title": "Beautiful & luxurious apartment at great location",
+        "type": "house",
+        "price": 748,
+        "previewImage": "https://13.design.pages.academy/static/hotel/20.jpg",
+        "city": {
+            "name": "Brussels",
+            "location": {
+                "latitude": 50.846557,
+                "longitude": 4.351697,
+                "zoom": 13
+            }
+        },
+        "location": {
+            "latitude": 50.852557,
+            "longitude": 4.3376969999999995,
+            "zoom": 16
+        },
+        "isFavorite": true,
+        "isPremium": false,
+        "rating": 4
+    }
+]

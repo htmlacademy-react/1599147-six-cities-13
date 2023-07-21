@@ -1,6 +1,6 @@
-import { CitiesListType } from '../types/cities-types';
+import { CityList } from '../types/cities-types';
 
-export const cityList: CitiesListType = [
+export const cityList: CityList = [
   {
     name: 'Paris',
     isActive: true
@@ -26,3 +26,6 @@ export const cityList: CitiesListType = [
     isActive: false
   }
 ];
+
+export const citiesList = ['Paris', 'Cologne', 'Brussels', 'Amsterdam', 'Hamburg', 'Dusseldorf'] as const;
+export type CitiesList = typeof citiesList[number]
