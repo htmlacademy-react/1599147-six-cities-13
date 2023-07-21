@@ -48,4 +48,4 @@ export type Host = {
   avatarUrl: string;
 }
 
-export type FavoriteGroupType = [string, Offer[]][]
+export type FavoriteGroup = [cityName: string, offers: Offer[]][]

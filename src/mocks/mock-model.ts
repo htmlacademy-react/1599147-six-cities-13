@@ -1,4 +1,4 @@
-import { OfferDetails, OfferList, FavoriteGroupType, Offer } from '../types/offer-types';
+import { OfferDetails, OfferList, FavoriteGroup, Offer } from '../types/offer-types';
 import { CommentsList } from '../types/comment-types';
 import mockOfferList from './offer-list.json';
 import mockOfferDetails from './offer-details.json';
@@ -20,9 +20,8 @@ export const getMockCommentsList = (): CommentsList => {
   return commentsListClone;
 };
 
-export const getMockFavorites = ():FavoriteGroupType => {
+export const getMockFavorites = ():FavoriteGroup => {
   const favoritesListClone = structuredClone(mockFavorites);
-
   const favoritesGroupList: {[key: string]: Offer[]} = {};
 
   favoritesListClone.forEach((item) => {

@@ -8,22 +8,22 @@ type OfferCardProps = {
   offerItem: Offer;
   onMouseEnter?: (id:string) => void ;
   onMouseLeave?: () => void;
-  isMainPage?: boolean;
-  isFavoritePage?: boolean;
+  isCityComponent?: boolean;
+  isFavoriteComponent?: boolean;
 }
 
 export default function OfferCard({
   offerItem,
   onMouseEnter = () => null,
   onMouseLeave = ()=> null,
-  isMainPage = false,
-  isFavoritePage = false }: OfferCardProps): JSX.Element {
+  isCityComponent = false,
+  isFavoriteComponent = false }: OfferCardProps): JSX.Element {
 
   return (
     <article onMouseEnter={() => onMouseEnter(offerItem.id)} onMouseLeave={onMouseLeave} className={cn(
-      { 'cities__card': isMainPage },
-      {'place-card': isMainPage},
-      {'favorites__card': isFavoritePage}
+      { 'cities__card': isCityComponent },
+      {'place-card': isCityComponent},
+      {'favorites__card': isFavoriteComponent}
     )}
     >
       {offerItem.isPremium && (
@@ -32,16 +32,16 @@ export default function OfferCard({
         </div>
       )}
       <div className={cn(
-        { 'cities__image-wrapper': isMainPage },
-        { 'favorites__image-wrapper': isFavoritePage },
+        { 'cities__image-wrapper': isCityComponent },
+        { 'favorites__image-wrapper': isFavoriteComponent },
         'place-card__image-wrapper')}
       >
-        <Link to={generatePath(AppRoute.Offer,{id: `${offerItem.id}`})} >
-          <img className="place-card__image" src={`${offerItem.previewImage}`} width="260" height="200" alt="Place image"/>
+        <Link to={generatePath(AppRoute.Offer,{id: offerItem.id})} >
+          <img className="place-card__image" src={offerItem.previewImage} width="260" height="200" alt="Place image"/>
         </Link>
       </div>
       <div className={cn(
-        {'favorites__card-info': isFavoritePage},
+        {'favorites__card-info': isFavoriteComponent},
         'place-card__info')}
       >
         <div className="place-card__price-wrapper">
@@ -73,7 +73,7 @@ export default function OfferCard({
           </div>
         </div>
         <h2 className="place-card__name">
-          <Link to={generatePath(AppRoute.Offer,{id: `${offerItem.id}`})}>{ offerItem.title}</Link>
+          <Link to={generatePath(AppRoute.Offer,{id: offerItem.id})}>{ offerItem.title}</Link>
         </h2>
         <p className="place-card__type">{ offerItem.type}</p>
       </div>

@@ -3,4 +3,4 @@ export type CityItem = {
   isActive: boolean;
 }
 
-export type CitiesList = CityItem[];
+export type CityList = CityItem[];

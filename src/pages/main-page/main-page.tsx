@@ -1,4 +1,3 @@
-import React from 'react';
 import cn from 'classnames';
 import { OfferList } from '../../types/offer-types';
 import CitiesFilter from '../../components/cities-filter/cities-filter';
@@ -35,22 +34,18 @@ export default function MainPage(props : MainPageProps): JSX.Element {
             {'cities__places-container--empty': props.offersList.length === 0},
             'container')}
           >
-            {/* в  секцию "places" передается список, отфильтрованный по городу + имя города !!!
-            так же как и в фаворитах (фавориты сгруппированы по городам) надо ли выделять в самостоятельный компонент ?
-            или как сделать "красиво"?*/}
             { props.offersList.length > 0 && (
-              <React.Fragment>
+              <>
                 <section className="cities__places places">
                   <h2 className="visually-hidden">Places</h2>
                   <b className="places__found">{props.offerCount} places to stay in Amsterdam</b>
-                  {/* сомневаюсь в выделении SortForm*/}
                   <SortForm />
                   <OfferCardList offersList={props.offersList} />
                 </section>
                 <div className="cities__right-section">
                   <section className="cities__map map"></section>
                 </div>
-              </React.Fragment>)}
+              </>)}
             {props.offersList.length === 0 && (
               <NullOfferList />
             )}

@@ -19,7 +19,7 @@ export default function FavoriteLocationItems(props: FavoriteLocationItemsProps)
         </div>
       </div>
       <div className="favorites__places">
-        {props.offerList.map((item) => <OfferCard offerItem={item} isFavoritePage key={item.id} />)}
+        {props.offerList.map((item) => <OfferCard offerItem={item} isFavoriteComponent key={item.id} />)}
       </div>
     </li>
   );

@@ -1,8 +1,6 @@
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// import { CitiesList } from '../../types/cities-types';
-
 import PrivateRoute from '../private-route/private-route';
 
 import FavoritesPage from '../../pages/favorites-page/favorites-page';
@@ -13,12 +11,12 @@ import OfferPage from '../../pages/offer-page/offer-page';
 
 import { AppRoute } from '../../constants/app-routes';
 import { AuthStatus } from '../../constants/auth-status';
-import { FavoriteGroupType, OfferList } from '../../types/offer-types';
+import { FavoriteGroup, OfferList } from '../../types/offer-types';
 
 type AppProps = {
   offerByCityCount: number;
   offerList: OfferList;
-  favoriteList: FavoriteGroupType;
+  favoriteList: FavoriteGroup;
 }
 
 export default function App(props: AppProps): JSX.Element {

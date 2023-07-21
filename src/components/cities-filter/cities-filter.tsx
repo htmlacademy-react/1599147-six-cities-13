@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import { CitiesList } from '../../types/cities-types';
+import { CityList } from '../../types/cities-types';
 import { AppRoute } from '../../constants/app-routes';
 
 type CitiesFilterProps = {
-  cityList: CitiesList;
+  cityList: CityList;
 }
 
 export default function CitiesFilter({cityList}: CitiesFilterProps): JSX.Element {
