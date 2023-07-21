@@ -1,14 +1,14 @@
-export type CommentsList = Comment[]
+export type CommentsList = CommentType[]
 
-export type Comment = {
+export type CommentType = {
   id: string;
   comment: string;
   date: string;
   rating: number;
-  user: User;
+  user: UserType;
 }
 
-export type User = {
+export type UserType = {
   name: string;
   avatarUrl: string;
   isPro: boolean;

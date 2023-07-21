@@ -1,11 +1,11 @@
 import { Link, generatePath } from 'react-router-dom';
 import cn from 'classnames';
-import { Offer } from '../../types/offer-types.ts';
+import { OfferType } from '../../types/offer-types.ts';
 import { AppRoute } from '../../constants/app-routes.ts';
 import { calcRatingWidth } from '../../utils/utils.ts';
 
 type OfferCardProps = {
-  offerItem: Offer;
+  offerItem: OfferType;
   onMouseEnter?: (id:string) => void ;
   onMouseLeave?: () => void;
   isCityComponent?: boolean;

@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import { OfferList } from '../../types/offer-types';
+import { OfferListType } from '../../types/offer-types';
 import CitiesFilter from '../../components/cities-filter/cities-filter';
 import Header from '../../components/header/header';
 import SortForm from '../../components/sort-form/sort-form';
@@ -9,7 +9,7 @@ import NullOfferList from '../../components/null-offer-list/null-offer-list';
 
 type MainPageProps = {
   offerCount: number;
-  offersList: OfferList;
+  offersList: OfferListType;
 }
 
 export default function MainPage(props : MainPageProps): JSX.Element {

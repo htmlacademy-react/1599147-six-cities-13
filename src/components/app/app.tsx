@@ -11,12 +11,12 @@ import OfferPage from '../../pages/offer-page/offer-page';
 
 import { AppRoute } from '../../constants/app-routes';
 import { AuthStatus } from '../../constants/auth-status';
-import { FavoriteGroup, OfferList } from '../../types/offer-types';
+import { FavoriteGroupType, OfferListType } from '../../types/offer-types';
 
 type AppProps = {
   offerByCityCount: number;
-  offerList: OfferList;
-  favoriteList: FavoriteGroup;
+  offerList: OfferListType;
+  favoriteList: FavoriteGroupType;
 }
 
 export default function App(props: AppProps): JSX.Element {
