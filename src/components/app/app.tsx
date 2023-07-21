@@ -31,12 +31,17 @@ export default function App(props: AppProps): JSX.Element {
             <Route index path={AppRoute.Root} element={<MainPage offerCount={offerByCityCount} offersList={offerList} />} />
             <Route path={AppRoute.Offer} element={<OfferPage />} />
             <Route path={AppRoute.Favorites} element={
-              <PrivateRoute authStatus={AuthStatus.Auth}>
+              <PrivateRoute criteria={AuthStatus.Auth} param={AuthStatus.Auth} routeTo={AppRoute.Login}>
                 <FavoritesPage favoriteGroupList={favoriteList}/>
               </PrivateRoute>
             }
             />
-            <Route path={AppRoute.Login} element={<LoginPage />} />
+            <Route path={AppRoute.Login} element={
+              <PrivateRoute criteria={AuthStatus.NoAuth} param={AuthStatus.NoAuth} routeTo={AppRoute.Root}>
+                <LoginPage />
+              </PrivateRoute>
+            }
+            />
           </Route>
           <Route path={AppRoute.Any} element={<NotFoundPage />} />
         </Routes>
