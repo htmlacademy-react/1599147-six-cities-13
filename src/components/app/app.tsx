@@ -31,19 +31,28 @@ export default function App(props: AppProps): JSX.Element {
       <BrowserRouter>
         <Routes>
           <Route path={AppRoute.Root}>
-            <Route index path={AppRoute.Root} element={<MainPage offerCount={offerByCityCount} offersList={offerList} />} />
-            <Route path={AppRoute.Offer} element={<OfferPage authStatus={AuthStatus.Auth} commentsList={commentsList} offerDetails={offerDetails} />} />
+            <Route index path={AppRoute.Root}
+              element={
+                <MainPage offerCount={offerByCityCount} offersList={offerList} />
+              }
+            />
+            <Route path={AppRoute.Offer}
+              element={
+                <OfferPage authStatus={AuthStatus.Auth} commentsList={commentsList} offerDetails={offerDetails} />
+              }
+            />
             <Route path={AppRoute.Favorites} element={
               <PrivateRoute criteria={AuthStatus.Auth} param={AuthStatus.Auth} routeTo={AppRoute.Login}>
                 <FavoritesPage favoriteGroupList={favoriteList}/>
               </PrivateRoute>
             }
             />
-            <Route path={AppRoute.Login} element={
-              <PrivateRoute criteria={AuthStatus.NoAuth} param={AuthStatus.NoAuth} routeTo={AppRoute.Root}>
-                <LoginPage />
-              </PrivateRoute>
-            }
+            <Route path={AppRoute.Login}
+              element={
+                <PrivateRoute criteria={AuthStatus.NoAuth} param={AuthStatus.NoAuth} routeTo={AppRoute.Root}>
+                  <LoginPage />
+                </PrivateRoute>
+              }
             />
           </Route>
           <Route path={AppRoute.Any} element={<NotFoundPage />} />
