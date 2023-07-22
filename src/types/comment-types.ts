@@ -1,4 +1,4 @@
-export type CommentsList = CommentType[]
+export type CommentsListType = CommentType[]
 
 export type CommentType = {
   id: string;

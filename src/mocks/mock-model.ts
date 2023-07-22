@@ -1,5 +1,5 @@
 import { OfferDetailsType, OfferListType, FavoriteGroupType, OfferType } from '../types/offer-types';
-import { CommentsList } from '../types/comment-types';
+import { CommentsListType } from '../types/comment-types';
 import mockOfferList from './offer-list.json';
 import mockOfferDetails from './offer-details.json';
 import mockCommentsList from './comments.json';
@@ -15,8 +15,8 @@ export const getMockOfferDetails = (): OfferDetailsType => {
   return offerDetailsClone;
 };
 
-export const getMockCommentsList = (): CommentsList => {
-  const commentsListClone: CommentsList = structuredClone(mockCommentsList);
+export const getMockCommentsList = (): CommentsListType => {
+  const commentsListClone: CommentsListType = structuredClone(mockCommentsList);
   return commentsListClone;
 };
 
