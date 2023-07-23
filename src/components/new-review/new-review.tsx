@@ -12,10 +12,6 @@ export default function NewReview(): JSX.Element {
   const handleRatingChange = (evt: ChangeEvent<HTMLInputElement>): void => setRating(evt.target.value);
   const handleCommentChange = (evt: ChangeEvent<HTMLTextAreaElement>): void => setCommentText(evt.target.value);
 
-  console.log(rating);
-  console.log(commentText);
-
-
   return (
     <form className="reviews__form form" action="#" method="post">
       <label className="reviews__label form__label" htmlFor="review">Your review</label>
