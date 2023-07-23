@@ -9,9 +9,10 @@ import { OfferListType } from '../../types/offer-types';
 type MapProps = {
   city: CityItemType | undefined;
   mapPoints: OfferListType;
+  selectedOfferId?: string | undefined;
 }
 
-export default function Map({ city = DEFAULT_CITY, mapPoints}: MapProps): JSX.Element {
+export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = undefined}: MapProps): JSX.Element {
 
   const mapRef = useRef(null);
   const map = useMap(mapRef, city);
@@ -30,17 +31,20 @@ export default function Map({ city = DEFAULT_CITY, mapPoints}: MapProps): JSX.El
   useEffect(() => {
     if (map) {
       const markerLayer = layerGroup().addTo(map);
+
       mapPoints.forEach((item) => {
+
         const marker = new Marker({
           lat: item.location.latitude,
           lng: item.location.longitude,
         }, { draggable: false });
 
-        marker.setIcon(defaultIcon)
+        marker.setIcon(
+          selectedOfferId !== '' && item.id === selectedOfferId ? activeIcon : defaultIcon)
           .addTo(markerLayer);
       });
     }
-  }, [map, ]);
+  }, [map, mapPoints, selectedOfferId]);
 
   return (
     <section className="cities__map map"
