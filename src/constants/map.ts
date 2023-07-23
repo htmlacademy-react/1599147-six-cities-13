@@ -10,3 +10,6 @@ export const DEFAULT_CITY = {
     zoom: 13
   }
 };
+
+export const ACTIVE_PIN_ICON = 'img/pin-active.svg';
+export const DEFAULT_PIN_ICON = 'img/img/pin.svg';
