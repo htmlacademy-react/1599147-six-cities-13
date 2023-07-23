@@ -48,7 +48,7 @@ export default function MainPage(props: MainPageProps): JSX.Element {
                   <OfferCardList offersList={props.offersList} />
                 </section>
                 <div className="cities__right-section">
-                  <Map city={fakeCurrentCity}/>
+                  <Map city={fakeCurrentCity} mapPoints={props.offersList}/>
                 </div>
               </>)}
             {props.offersList.length === 0 && (

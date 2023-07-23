@@ -12,4 +12,4 @@ export const DEFAULT_CITY = {
 };
 
 export const ACTIVE_PIN_ICON = 'img/pin-active.svg';
-export const DEFAULT_PIN_ICON = 'img/img/pin.svg';
+export const DEFAULT_PIN_ICON = 'img/pin.svg';
