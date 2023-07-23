@@ -7,13 +7,17 @@ import { cityList } from '../../constants/cities-list';
 import OfferCardList from '../../components/offer-card-list/offer-card-list';
 import NullOfferList from '../../components/null-offer-list/null-offer-list';
 import Map from '../../components/map/map';
+import { CityItemType } from '../../types/cities-types';
 
 type MainPageProps = {
   offerCount: number;
   offersList: OfferListType;
 }
 
-export default function MainPage(props : MainPageProps): JSX.Element {
+export default function MainPage(props: MainPageProps): JSX.Element {
+
+  // TODO - защита от того, если координат города нет - назначить точку по-умолчанию
+  const fakeCurrentCity: CityItemType | undefined = cityList.find((item) => item.name === 'Amsterdam');
 
   return (
     <div className="page page--gray page--main">
@@ -44,7 +48,7 @@ export default function MainPage(props : MainPageProps): JSX.Element {
                   <OfferCardList offersList={props.offersList} />
                 </section>
                 <div className="cities__right-section">
-                  <Map />
+                  <Map city={fakeCurrentCity}/>
                 </div>
               </>)}
             {props.offersList.length === 0 && (
