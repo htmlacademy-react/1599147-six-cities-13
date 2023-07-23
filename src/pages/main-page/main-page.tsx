@@ -6,6 +6,7 @@ import SortForm from '../../components/sort-form/sort-form';
 import { cityList } from '../../constants/cities-list';
 import OfferCardList from '../../components/offer-card-list/offer-card-list';
 import NullOfferList from '../../components/null-offer-list/null-offer-list';
+import Map from '../../components/map/map';
 
 type MainPageProps = {
   offerCount: number;
@@ -43,7 +44,7 @@ export default function MainPage(props : MainPageProps): JSX.Element {
                   <OfferCardList offersList={props.offersList} />
                 </section>
                 <div className="cities__right-section">
-                  <section className="cities__map map"></section>
+                  <Map />
                 </div>
               </>)}
             {props.offersList.length === 0 && (
