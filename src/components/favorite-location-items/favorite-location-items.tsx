@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import { AppRoute } from '../../constants/app-routes';
-import { OfferList } from '../../types/offer-types';
+import { OfferListType } from '../../types/offer-types';
 import OfferCard from '../offer-card/offer-card';
 
 type FavoriteLocationItemsProps = {
   city: string;
-  offerList: OfferList;
+  offerList: OfferListType;
 }
 
 export default function FavoriteLocationItems(props: FavoriteLocationItemsProps): JSX.Element {

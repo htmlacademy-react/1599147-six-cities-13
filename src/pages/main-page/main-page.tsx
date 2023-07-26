@@ -1,18 +1,30 @@
 import cn from 'classnames';
-import { OfferList } from '../../types/offer-types';
+import { useState } from 'react';
+
+import { OfferListType } from '../../types/offer-types';
+import { CityItemType } from '../../types/cities-types';
+
 import CitiesFilter from '../../components/cities-filter/cities-filter';
 import Header from '../../components/header/header';
 import SortForm from '../../components/sort-form/sort-form';
 import { cityList } from '../../constants/cities-list';
 import OfferCardList from '../../components/offer-card-list/offer-card-list';
 import NullOfferList from '../../components/null-offer-list/null-offer-list';
+import Map from '../../components/map/map';
 
 type MainPageProps = {
   offerCount: number;
-  offersList: OfferList;
+  offersList: OfferListType;
 }
 
-export default function MainPage(props : MainPageProps): JSX.Element {
+export default function MainPage(props: MainPageProps): JSX.Element {
+
+  // TODO - защита от того, если координат города нет - назначить точку по-умолчанию
+  const fakeCurrentCity: CityItemType | undefined = cityList.find((item) => item.name === 'Amsterdam');
+
+  const [selectedOfferId, setSelectedOffer] = useState('');
+
+  const handleOfferSelect = (id: string) => setSelectedOffer(id);
 
   return (
     <div className="page page--gray page--main">
@@ -38,12 +50,12 @@ export default function MainPage(props : MainPageProps): JSX.Element {
               <>
                 <section className="cities__places places">
                   <h2 className="visually-hidden">Places</h2>
-                  <b className="places__found">{props.offerCount} places to stay in Amsterdam</b>
+                  <b className="places__found">{props.offerCount} places to stay in {fakeCurrentCity?.name}</b>
                   <SortForm />
-                  <OfferCardList offersList={props.offersList} />
+                  <OfferCardList offersList={props.offersList} onOfferSelect={handleOfferSelect} />
                 </section>
                 <div className="cities__right-section">
-                  <section className="cities__map map"></section>
+                  <Map city={fakeCurrentCity} mapPoints={props.offersList} selectedOfferId={selectedOfferId} />
                 </div>
               </>)}
             {props.offersList.length === 0 && (

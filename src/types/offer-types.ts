@@ -1,40 +1,40 @@
-export type OfferList = Offer[]
+export type OfferListType = OfferType[]
 
-export type Offer = {
+export type OfferType = {
   id: string;
   title: string;
   type: string;
   price: number;
   previewImage: string;
-  city: City;
-  location: Location;
+  city: CityType;
+  location: LocationType;
   isFavorite: boolean;
   isPremium: boolean;
   rating: number;
 }
 
-export type City = {
+export type CityType = {
   name: string;
-  location: Location;
+  location: LocationType;
 }
 
-export type Location = {
+export type LocationType = {
   latitude: number;
   longitude: number;
   zoom: number;
 }
 
-export type OfferDetails = {
+export type OfferDetailsType = {
   id: string;
   title: string;
   description: string;
   type: string;
   price: number;
   images: string[];
-  city: City;
-  location: Location;
+  city: CityType;
+  location: LocationType;
   goods: string[];
-  host: Host;
+  host: HostType;
   isPremium: boolean;
   isFavorite: boolean;
   rating: number;
@@ -42,10 +42,10 @@ export type OfferDetails = {
   maxAdults: number;
 }
 
-export type Host = {
+export type HostType = {
   isPro: boolean;
   name: string;
   avatarUrl: string;
 }
 
-export type FavoriteGroup = [cityName: string, offers: Offer[]][]
+export type FavoriteGroupType = [cityName: string, offers: OfferType[]][]
