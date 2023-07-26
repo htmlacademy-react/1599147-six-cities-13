@@ -5,7 +5,7 @@ export default function NewReview(): JSX.Element {
 
   const ratingList = Object.entries(RatingList).reverse();
 
-  const [, setRating] = useState('0');
+  const [, setRating] = useState('');
 
   const [commentText, setCommentText] = useState('');
 

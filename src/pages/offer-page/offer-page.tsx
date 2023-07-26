@@ -128,9 +128,9 @@ export default function OfferPage(props: OfferPageProps): JSX.Element {
               </div>
               <section className="offer__reviews reviews">
                 <h2 className="reviews__title">Reviews &middot; <span className="reviews__amount">{commentsList.length}</span></h2>
-                {commentsList.length > 0 && (
-                  <ReviewList commentsList={commentsList}/>
-                )}
+
+                <ReviewList commentsList={commentsList}/>
+
                 {authStatus === AuthStatus.Auth && (
                   <NewReview />
                 )}

@@ -3,30 +3,22 @@ import leaflet, { Marker, layerGroup } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { CityItemType } from '../../types/cities-types';
 import useMap from '../../hoock/use-map';
-import { ACTIVE_PIN_ICON, DEFAULT_CITY, DEFAULT_PIN_ICON } from '../../constants/map';
+import { ACTIVE_ICON_CONFIG, DEFAULT_CITY, DEFAULT_ICON_CONFIG } from '../../constants/map';
 import { OfferListType } from '../../types/offer-types';
 
 type MapProps = {
-  city: CityItemType | undefined;
+  city?: CityItemType;
   mapPoints: OfferListType;
-  selectedOfferId?: string | undefined;
+  selectedOfferId?: string;
 }
 
-export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = undefined}: MapProps): JSX.Element {
+const activeIcon = leaflet.icon(ACTIVE_ICON_CONFIG);
+const defaultIcon = leaflet.icon(DEFAULT_ICON_CONFIG);
+
+export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = ''}: MapProps): JSX.Element {
 
   const mapRef = useRef(null);
   const map = useMap(mapRef, city);
-
-  const activeIcon = leaflet.icon({
-    iconUrl: ACTIVE_PIN_ICON,
-    iconSize: [27, 39],
-    iconAnchor: [14, 39]
-  });
-  const defaultIcon = leaflet.icon({
-    iconUrl: DEFAULT_PIN_ICON,
-    iconSize: [27, 39],
-    iconAnchor: [14, 39]
-  });
 
   useEffect(() => {
     if (map) {
@@ -50,7 +42,7 @@ export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = 
     <section className="cities__map map"
       ref={mapRef}
       style={{
-        height: `${794}px`
+        height: '100%'
       }}
     >
     </section>
