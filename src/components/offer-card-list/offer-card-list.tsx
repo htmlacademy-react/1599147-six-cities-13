@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { OfferListType } from '../../types/offer-types';
-import OfferCard from '../offer-card/offer-card';
+import MainOfferCard from '../proxy/main-offer-card';
 
 type OfferCardListProps = {
   offersList: OfferListType;
@@ -22,7 +22,7 @@ export default function OfferCardList({ offersList, onOfferSelect}: OfferCardLis
 
   return (
     <div className="cities__places-list places__list tabs__content">
-      {offersList.map((item) => <OfferCard offerItem={item} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} isCityComponent key={item.id} />)}
+      {offersList.map((item) => <MainOfferCard offerItem={item} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} key={item.id} />)}
 
     </div>
   );

@@ -20,6 +20,7 @@ type MainPageProps = {
 export default function MainPage(props: MainPageProps): JSX.Element {
 
   // TODO - защита от того, если координат города нет - назначить точку по-умолчанию
+  //TODO - при связи с картой перерисовывается вся  страница.  включая заголовок и фильтры. оно нам надо?
   const fakeCurrentCity: CityItemType | undefined = cityList.find((item) => item.name === 'Amsterdam');
 
   const [selectedOfferId, setSelectedOffer] = useState('');
