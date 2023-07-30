@@ -38,7 +38,7 @@ export default function App(props: AppProps): JSX.Element {
             />
             <Route path={AppRoute.Offer}
               element={
-                <OfferPage authStatus={AuthStatus.Auth} commentsList={commentsList} offerDetails={offerDetails} />
+                <OfferPage authStatus={AuthStatus.Auth} commentsList={commentsList} offerDetails={offerDetails} nearList={offerList} />
               }
             />
             <Route path={AppRoute.Favorites} element={

@@ -7,4 +7,3 @@ export default function MainOfferList(props: CardListProps): JSX.Element {
     <CardList className={'tabs__content cities__places-list'} {...restProps} />
   );
 }
-

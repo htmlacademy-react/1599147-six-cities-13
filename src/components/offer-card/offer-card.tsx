@@ -31,7 +31,7 @@ export default function OfferCard({
 }: OfferCardProps): JSX.Element {
 
   return (
-    <article onMouseEnter={() => onMouseEnter(offerItem.id)} onMouseLeave={onMouseLeave} className={`${className}`}>
+    <article onMouseEnter={() => onMouseEnter(offerItem.id)} onMouseLeave={onMouseLeave} className={`${className} place-card`}>
 
       {offerItem.isPremium && (
         <div className="place-card__mark">

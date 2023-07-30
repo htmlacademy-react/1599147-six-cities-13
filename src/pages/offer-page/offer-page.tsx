@@ -1,24 +1,37 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import cn from 'classnames';
+
+import { OfferDetailsType, OfferListType } from '../../types/offer-types';
+import { CommentsListType } from '../../types/comment-types';
+import { CityItemType } from '../../types/cities-types';
 
 import Header from '../../components/header/header';
 import NewReview from '../../components/new-review/new-review';
 import ReviewList from '../../components/review-list/review-list';
-import { AuthStatus, AuthStatusType } from '../../constants/auth-status';
-import { OfferDetailsType } from '../../types/offer-types';
-import { CommentsListType } from '../../types/comment-types';
+import NearOfferList from '../../components/proxy/near-offer-list';
+import Map from '../../components/map/map';
+
 import { calcRatingWidth, capitalize } from '../../utils/utils';
+
+import { cityList } from '../../constants/cities-list';
+import { AuthStatus, AuthStatusType } from '../../constants/auth-status';
 
 type OfferPageProps = {
   authStatus: AuthStatusType;
   offerDetails: OfferDetailsType;
   commentsList: CommentsListType;
+  nearList: OfferListType;
+
 }
 
 export default function OfferPage(props: OfferPageProps): JSX.Element {
 
-  const { authStatus, offerDetails, commentsList } = props;
+  const [selectedOfferId, setSelectedOffer] = useState('');
+  const handleOfferSelect = (id: string) => setSelectedOffer(id);
+  const fakeCurrentCity: CityItemType | undefined = cityList.find((item) => item.name === 'Amsterdam');
+
+  const { authStatus, offerDetails, commentsList, nearList } = props;
   return (
     <div className="page">
       <Helmet>
@@ -137,126 +150,16 @@ export default function OfferPage(props: OfferPageProps): JSX.Element {
               </section>
             </div>
           </div>
-          <section className="offer__map map"></section>
+
+          <Map city={fakeCurrentCity} mapPoints={nearList} selectedOfferId={selectedOfferId} className='offer__map'/>
+
         </section>
         <div className="container">
           <section className="near-places places">
             <h2 className="near-places__title">Other places in the neighbourhood</h2>
-            <div className="near-places__list places__list">
-              <article className="near-places__card place-card">
-                <div className="near-places__image-wrapper place-card__image-wrapper">
-                  <Link to='/offer/1234'>
-                    <img className="place-card__image" src="img/room.jpg" width="260" height="200" alt="Place image" />
-                  </Link>
-                </div>
-                <div className="place-card__info">
-                  <div className="place-card__price-wrapper">
-                    <div className="place-card__price">
-                      <b className="place-card__price-value">&euro;80</b>
-                      <span className="place-card__price-text">&#47;&nbsp;night</span>
-                    </div>
-                    <button className="place-card__bookmark-button place-card__bookmark-button--active button" type="button">
-                      <svg className="place-card__bookmark-icon" width="18" height="19">
-                        <use xlinkHref="#icon-bookmark"></use>
-                      </svg>
-                      <span className="visually-hidden">In bookmarks</span>
-                    </button>
-                  </div>
-                  <div className="place-card__rating rating">
-                    <div className="place-card__stars rating__stars">
-                      <span
-                        style={{
-                          width: '80%'
-                        }}
-                      >
-                      </span>
-                      <span className="visually-hidden">Rating</span>
-                    </div>
-                  </div>
-                  <h2 className="place-card__name">
-                    <Link to='/offer/1234'>Wood and stone place</Link>
-                  </h2>
-                  <p className="place-card__type">Private room</p>
-                </div>
-              </article>
 
-              <article className="near-places__card place-card">
-                <div className="near-places__image-wrapper place-card__image-wrapper">
-                  <Link to='/offer/1234'>
-                    <img className="place-card__image" src="img/apartment-02.jpg" width="260" height="200" alt="Place image" />
-                  </Link>
-                </div>
-                <div className="place-card__info">
-                  <div className="place-card__price-wrapper">
-                    <div className="place-card__price">
-                      <b className="place-card__price-value">&euro;132</b>
-                      <span className="place-card__price-text">&#47;&nbsp;night</span>
-                    </div>
-                    <button className="place-card__bookmark-button button" type="button">
-                      <svg className="place-card__bookmark-icon" width="18" height="19">
-                        <use xlinkHref="#icon-bookmark"></use>
-                      </svg>
-                      <span className="visually-hidden">To bookmarks</span>
-                    </button>
-                  </div>
-                  <div className="place-card__rating rating">
-                    <div className="place-card__stars rating__stars">
-                      <span
-                        style={{
-                          width: '80%'
-                        }}
-                      >
-                      </span>
-                      <span className="visually-hidden">Rating</span>
-                    </div>
-                  </div>
-                  <h2 className="place-card__name">
-                    <Link to='/offer/1234'>Canal View Prinsengracht</Link>
-                  </h2>
-                  <p className="place-card__type">Apartment</p>
-                </div>
-              </article>
+            <NearOfferList offersList={nearList} onOfferSelect={handleOfferSelect} />
 
-              <article className="near-places__card place-card">
-                <div className="place-card__mark">
-                  <span>Premium</span>
-                </div>
-                <div className="near-places__image-wrapper place-card__image-wrapper">
-                  <Link to='/offer/1234'>
-                    <img className="place-card__image" src="img/apartment-03.jpg" width="260" height="200" alt="Place image" />
-                  </Link>
-                </div>
-                <div className="place-card__info">
-                  <div className="place-card__price-wrapper">
-                    <div className="place-card__price">
-                      <b className="place-card__price-value">&euro;180</b>
-                      <span className="place-card__price-text">&#47;&nbsp;night</span>
-                    </div>
-                    <button className="place-card__bookmark-button button" type="button">
-                      <svg className="place-card__bookmark-icon" width="18" height="19">
-                        <use xlinkHref="#icon-bookmark"></use>
-                      </svg>
-                      <span className="visually-hidden">To bookmarks</span>
-                    </button>
-                  </div>
-                  <div className="place-card__rating rating">
-                    <div className="place-card__stars rating__stars">
-                      <span
-                        style={{
-                          width: '100%'
-                        }}
-                      >
-                      </span>
-                      <span className="visually-hidden">Rating</span>
-                    </div>
-                  </div>
-                  <h2 className="place-card__name">
-                    <Link to='/offer/1234'>Nice, cozy, warm big bed apartment</Link>
-                  </h2>
-                  <p className="place-card__type">Apartment</p>
-                </div>
-              </article>
-            </div>
           </section>
         </div>
       </main>
