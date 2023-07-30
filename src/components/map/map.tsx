@@ -22,21 +22,30 @@ export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = 
   const map = useMap(mapRef, city);
 
   useEffect(() => {
-    if (map) {
-      const markerLayer = layerGroup().addTo(map);
+    let isMounted = true;
 
-      mapPoints.forEach((item) => {
+    if (isMounted) {
 
-        const marker = new Marker({
-          lat: item.location.latitude,
-          lng: item.location.longitude,
-        }, { draggable: false });
+      if (map) {
+        const markerLayer = layerGroup().addTo(map);
 
-        marker.setIcon(
-          selectedOfferId !== '' && item.id === selectedOfferId ? activeIcon : defaultIcon)
-          .addTo(markerLayer);
-      });
+        mapPoints.forEach((item) => {
+
+          const marker = new Marker({
+            lat: item.location.latitude,
+            lng: item.location.longitude,
+          }, { draggable: false });
+
+          marker.setIcon(
+            selectedOfferId !== '' && item.id === selectedOfferId ? activeIcon : defaultIcon)
+            .addTo(markerLayer);
+        });
+      }
     }
+    return () => {
+      isMounted = false;
+    };
+
   }, [map, mapPoints, selectedOfferId]);
 
   return (
