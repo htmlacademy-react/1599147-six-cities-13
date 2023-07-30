@@ -2,12 +2,13 @@ import { useState } from 'react';
 import { OfferListType } from '../../types/offer-types';
 import MainOfferCard from '../proxy/main-offer-card';
 
-type OfferCardListProps = {
+export type CardListProps = {
   offersList: OfferListType;
   onOfferSelect: (id: string) => void;
+  className?: string;
 }
 
-export default function OfferCardList({ offersList, onOfferSelect}: OfferCardListProps): JSX.Element {
+export default function CardList({ offersList, onOfferSelect, className = ''}: CardListProps): JSX.Element {
 
   const [, setState] = useState({ });
 
@@ -21,7 +22,7 @@ export default function OfferCardList({ offersList, onOfferSelect}: OfferCardLis
   };
 
   return (
-    <div className="cities__places-list places__list tabs__content">
+    <div className={`${className} places__list}`}>
       {offersList.map((item) => <MainOfferCard offerItem={item} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} key={item.id} />)}
 
     </div>
