@@ -7,7 +7,7 @@ import mockFavorites from './favorites-list.json';
 
 export const getMockOfferList = (): OfferListType => {
   const offerListClone: OfferListType = structuredClone(mockOfferList);
-  return offerListClone.filter((item) => item.city.name === 'Amsterdam').slice(0, 5);
+  return offerListClone.filter((item) => item.city.name === 'Paris').slice(0, 5);
 };
 
 export const getMockOfferDetails = (): OfferDetailsType => {
