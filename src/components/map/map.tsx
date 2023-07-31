@@ -10,12 +10,13 @@ type MapProps = {
   city?: CityItemType;
   mapPoints: OfferListType;
   selectedOfferId?: string;
+  className?: string;
 }
 
 const activeIcon = leaflet.icon(ACTIVE_ICON_CONFIG);
 const defaultIcon = leaflet.icon(DEFAULT_ICON_CONFIG);
 
-export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = ''}: MapProps): JSX.Element {
+export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = '', className = ''}: MapProps): JSX.Element {
 
   const mapRef = useRef(null);
   const map = useMap(mapRef, city);
@@ -39,12 +40,12 @@ export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = 
   }, [map, mapPoints, selectedOfferId]);
 
   return (
-    <section className="cities__map map"
-      ref={mapRef}
-      style={{
-        height: '100%'
-      }}
-    >
+    <section className={`${className} map`}>
+      <div ref={mapRef}
+        style={{
+          height: '100%'
+        }}
+      />
     </section>
   );
 }

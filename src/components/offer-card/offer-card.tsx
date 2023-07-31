@@ -4,46 +4,46 @@ import { OfferType } from '../../types/offer-types.ts';
 import { AppRoute } from '../../constants/app-routes.ts';
 import { calcRatingWidth } from '../../utils/utils.ts';
 
-type OfferCardProps = {
+type OfferInnerClassList = {
+  imageWrapperClass: string;
+  cardInfoClass: string;
+}
+
+export type OfferCardProps = {
   offerItem: OfferType;
   onMouseEnter?: (id:string) => void ;
   onMouseLeave?: () => void;
-  isCityComponent?: boolean;
-  isFavoriteComponent?: boolean;
+  innerClassList?: OfferInnerClassList;
+  className?: string;
 }
+
+const defaultInnerClassList: OfferInnerClassList = {
+  imageWrapperClass: '',
+  cardInfoClass: ''
+};
 
 export default function OfferCard({
   offerItem,
   onMouseEnter = () => null,
   onMouseLeave = ()=> null,
-  isCityComponent = false,
-  isFavoriteComponent = false }: OfferCardProps): JSX.Element {
+  innerClassList = defaultInnerClassList,
+  className = ''
+}: OfferCardProps): JSX.Element {
 
   return (
-    <article onMouseEnter={() => onMouseEnter(offerItem.id)} onMouseLeave={onMouseLeave} className={cn(
-      { 'cities__card': isCityComponent },
-      {'place-card': isCityComponent},
-      {'favorites__card': isFavoriteComponent}
-    )}
-    >
+    <article onMouseEnter={() => onMouseEnter(offerItem.id)} onMouseLeave={onMouseLeave} className={`${className} place-card`}>
+
       {offerItem.isPremium && (
         <div className="place-card__mark">
           <span>Premium</span>
         </div>
       )}
-      <div className={cn(
-        { 'cities__image-wrapper': isCityComponent },
-        { 'favorites__image-wrapper': isFavoriteComponent },
-        'place-card__image-wrapper')}
-      >
+      <div className={`${innerClassList.imageWrapperClass} place-card__image-wrapper`}>
         <Link to={generatePath(AppRoute.Offer,{id: offerItem.id})} >
           <img className="place-card__image" src={offerItem.previewImage} width="260" height="200" alt="Place image"/>
         </Link>
       </div>
-      <div className={cn(
-        {'favorites__card-info': isFavoriteComponent},
-        'place-card__info')}
-      >
+      <div className={`${innerClassList.cardInfoClass} place-card__info`}>
         <div className="place-card__price-wrapper">
           <div className="place-card__price">
             <b className="place-card__price-value">&euro;{ offerItem.price}</b>
