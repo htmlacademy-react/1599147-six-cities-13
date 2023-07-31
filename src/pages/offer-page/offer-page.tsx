@@ -14,7 +14,7 @@ import Map from '../../components/map/map';
 
 import { calcRatingWidth, capitalize } from '../../utils/utils';
 
-import { cityList } from '../../constants/cities-list';
+import { CITY_LIST } from '../../constants/cities-list';
 import { AuthStatus, AuthStatusType } from '../../constants/auth-status';
 
 type OfferPageProps = {
@@ -29,7 +29,7 @@ export default function OfferPage(props: OfferPageProps): JSX.Element {
 
   const [selectedOfferId, setSelectedOffer] = useState('');
   const handleOfferSelect = (id: string) => setSelectedOffer(id);
-  const fakeCurrentCity: CityItemType | undefined = cityList.find((item) => item.name === 'Amsterdam');
+  const fakeCurrentCity: CityItemType | undefined = CITY_LIST.find((item) => item.name === 'Amsterdam');
 
   const { authStatus, offerDetails, commentsList, nearList } = props;
   return (
