@@ -23,29 +23,25 @@ export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = 
   const map = useMap(mapRef, city);
 
   useEffect(() => {
-    let isMounted = true;
 
-    if (isMounted) {
+    if (map) {
+      const markerLayer = layerGroup().addTo(map);
 
-      if (map) {
-        const markerLayer = layerGroup().addTo(map);
+      mapPoints.forEach((item) => {
 
-        mapPoints.forEach((item) => {
+        const marker = new Marker({
+          lat: item.location.latitude,
+          lng: item.location.longitude,
+        }, { draggable: false });
 
-          const marker = new Marker({
-            lat: item.location.latitude,
-            lng: item.location.longitude,
-          }, { draggable: false });
-
-          marker.setIcon(
-            selectedOfferId !== '' && item.id === selectedOfferId ? activeIcon : defaultIcon)
-            .addTo(markerLayer);
-        });
-      }
+        marker.setIcon(
+          selectedOfferId !== '' && item.id === selectedOfferId ? activeIcon : defaultIcon)
+          .addTo(markerLayer);
+      });
+      return () => {
+        map.removeLayer(markerLayer);
+      };
     }
-    return () => {
-      isMounted = false;
-    };
 
   }, [map, mapPoints, selectedOfferId]);
 
