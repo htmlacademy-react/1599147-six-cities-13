@@ -15,7 +15,6 @@ import { FavoriteGroupType, OfferDetailsType, OfferListType } from '../../types/
 import { CommentsListType } from '../../types/comment-types';
 
 type AppProps = {
-  offerByCityCount: number;
   offerList: OfferListType;
   favoriteList: FavoriteGroupType;
   offerDetails: OfferDetailsType;
@@ -24,7 +23,7 @@ type AppProps = {
 
 export default function App(props: AppProps): JSX.Element {
 
-  const { offerByCityCount, offerList, favoriteList, offerDetails, commentsList } = props;
+  const { offerList, favoriteList, offerDetails, commentsList } = props;
 
   return (
     <HelmetProvider>
@@ -33,7 +32,7 @@ export default function App(props: AppProps): JSX.Element {
           <Route path={AppRoute.Root}>
             <Route index path={AppRoute.Root}
               element={
-                <MainPage offerCount={offerByCityCount} offersList={offerList} />
+                <MainPage offersList={offerList} />
               }
             />
             <Route path={AppRoute.Offer}

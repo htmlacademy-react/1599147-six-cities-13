@@ -11,7 +11,6 @@ import MainOfferList from '../../components/proxy/main-offer-list';
 import { useAppSelector } from '../../hooks';
 
 type MainPageProps = {
-  offerCount: number;
   offersList: OfferListType;
 }
 
@@ -48,7 +47,7 @@ export default function MainPage(props: MainPageProps): JSX.Element {
               <>
                 <section className="cities__places places">
                   <h2 className="visually-hidden">Places</h2>
-                  <b className="places__found">{props.offerCount} places to stay in {currentCity?.name}</b>
+                  <b className="places__found">{props.offersList.length} places to stay in {currentCity?.name}</b>
                   <SortForm />
                   <MainOfferList offersList={props.offersList} onOfferSelect={handleOfferSelect} />
                 </section>
