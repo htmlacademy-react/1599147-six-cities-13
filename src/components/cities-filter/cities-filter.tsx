@@ -8,6 +8,7 @@ import { changeCity } from '../../store/action';
 export default function CitiesFilter(): JSX.Element {
 
   const currentCity = useAppSelector((state) => state.city);
+  const getCityByName = (cityName: string) => CITY_LIST.find((item) => item.name === cityName);
 
   const dispatch = useAppDispatch();
 
@@ -17,12 +18,12 @@ export default function CitiesFilter(): JSX.Element {
         {CITY_LIST.map((item) => (
           <li key={item.name}
             className="locations__item"
-            onClick={() => (dispatch(changeCity({ city: item.name })))}
+            onClick={() => (dispatch(changeCity({ city: getCityByName(item.name) })))}
           >
             <Link to={AppRoute.Root} className={cn(
               'locations__item-link',
               'tabs__item',
-              { 'tabs__item--active': item.name === currentCity }
+              { 'tabs__item--active': item.name === currentCity?.name }
             )}
             >
               <span>{item.name}</span>

@@ -2,14 +2,15 @@ import { createReducer } from '@reduxjs/toolkit';
 import { DEFAULT_CITY } from '../constants/cities-list';
 import { OfferListType } from '../types/offer-types';
 import { changeCity } from './action';
+import { CityItemType } from '../types/cities-types';
 
 type OfferListState = {
-  city: string;
+  city: CityItemType | undefined;
   offerList: OfferListType;
 }
 
 const initialState: OfferListState = {
-  city: DEFAULT_CITY.name,
+  city: DEFAULT_CITY,
   offerList: []
 };
 
