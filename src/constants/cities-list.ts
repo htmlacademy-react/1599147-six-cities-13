@@ -2,7 +2,6 @@
 export const CITY_LIST = [
   {
     name: 'Paris',
-    isActive: true,
     location: {
       latitude: 48.85661,
       longitude: 2.351499,
@@ -11,7 +10,6 @@ export const CITY_LIST = [
   },
   {
     name: 'Cologne',
-    isActive: false,
     location: {
       latitude: 50.938361,
       longitude: 6.959974,
@@ -20,7 +18,6 @@ export const CITY_LIST = [
   },
   {
     name: 'Brussels',
-    isActive: false,
     location: {
       latitude: 50.846557,
       longitude: 4.351697,
@@ -29,7 +26,6 @@ export const CITY_LIST = [
   },
   {
     name: 'Amsterdam',
-    isActive: false,
     location: {
       latitude: 52.37454,
       longitude: 4.897976,
@@ -38,7 +34,6 @@ export const CITY_LIST = [
   },
   {
     name: 'Hamburg',
-    isActive: false,
     location: {
       latitude: 53.550341,
       longitude: 10.000654,
@@ -47,7 +42,6 @@ export const CITY_LIST = [
   },
   {
     name: 'Dusseldorf',
-    isActive: false,
     location: {
       latitude: 51.225402,
       longitude: 6.776314,
