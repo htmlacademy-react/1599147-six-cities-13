@@ -1,26 +1,29 @@
 import cn from 'classnames';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
-import { OfferListType } from '../../types/offer-types';
 import CitiesFilter from '../../components/cities-filter/cities-filter';
 import Header from '../../components/header/header';
 import SortForm from '../../components/sort-form/sort-form';
 import NullOfferList from '../../components/null-offer-list/null-offer-list';
 import Map from '../../components/map/map';
 import MainOfferList from '../../components/proxy/main-offer-list';
-import { useAppSelector } from '../../hooks';
+import { useAppDispatch, useAppSelector } from '../../hooks';
+import { loadOfferList } from '../../store/action';
 
-type MainPageProps = {
-  offersList: OfferListType;
-}
+export default function MainPage(): JSX.Element {
 
-export default function MainPage(props: MainPageProps): JSX.Element {
-
-  //TODO - при связи с картой перерисовывается вся  страница.  включая заголовок и фильтры. исправить?
-
+  const dispatch = useAppDispatch();
   const [selectedOfferId, setSelectedOffer] = useState('');
   const handleOfferSelect = (id: string) => setSelectedOffer(id);
   const currentCity = useAppSelector((state) => state.city);
+  const offersData = useAppSelector((state) => state.offerList);
+  const currentOfferList = offersData.filter((item) => item.city.name === currentCity?.name);
+
+  useEffect(() => {
+    dispatch(loadOfferList());
+  }, [dispatch]);
+
+  const isOffersListEmpty = currentOfferList.length === 0;
 
   return (
     <div className="page page--gray page--main">
@@ -29,7 +32,7 @@ export default function MainPage(props: MainPageProps): JSX.Element {
       <main className={cn(
         'page__main',
         'page__main--index',
-        { 'page__main--index-empty': props.offersList.length === 0 })}
+        { 'page__main--index-empty': isOffersListEmpty })}
       >
         <h1 className="visually-hidden">Cities</h1>
         <div className="tabs">
@@ -39,25 +42,21 @@ export default function MainPage(props: MainPageProps): JSX.Element {
 
           <div className={cn(
             'cities__places-container',
-            {'cities__places-container--empty': props.offersList.length === 0},
+            {'cities__places-container--empty': isOffersListEmpty},
             'container')}
           >
-            {/* TODO - два условия на одно и то же - избавиться */}
-            { props.offersList.length > 0 && (
+            { !isOffersListEmpty ? (
               <>
                 <section className="cities__places places">
                   <h2 className="visually-hidden">Places</h2>
-                  <b className="places__found">{props.offersList.length} places to stay in {currentCity?.name}</b>
+                  <b className="places__found">{currentOfferList.length} places to stay in {currentCity?.name}</b>
                   <SortForm />
-                  <MainOfferList offersList={props.offersList} onOfferSelect={handleOfferSelect} />
+                  <MainOfferList offersList={currentOfferList} onOfferSelect={handleOfferSelect} />
                 </section>
                 <div className="cities__right-section">
-                  <Map city={currentCity} mapPoints={props.offersList} selectedOfferId={selectedOfferId} className='cities__map' />
+                  <Map city={currentCity} mapPoints={currentOfferList} selectedOfferId={selectedOfferId} className='cities__map' />
                 </div>
-              </>)}
-            {props.offersList.length === 0 && (
-              <NullOfferList />
-            )}
+              </>) : (<NullOfferList />)}
           </div>
         </div>
       </main>

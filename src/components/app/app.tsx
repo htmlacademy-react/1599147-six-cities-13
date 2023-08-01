@@ -32,7 +32,7 @@ export default function App(props: AppProps): JSX.Element {
           <Route path={AppRoute.Root}>
             <Route index path={AppRoute.Root}
               element={
-                <MainPage offersList={offerList} />
+                <MainPage />
               }
             />
             <Route path={AppRoute.Offer}
