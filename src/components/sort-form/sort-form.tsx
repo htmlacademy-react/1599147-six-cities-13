@@ -1,20 +1,48 @@
-export default function SortForm() {
+import cn from 'classnames';
+import { useState } from 'react';
+import './sort-form.css';
+import { SORT_LIST, SortKindType } from '../../constants/sort-constants';
+
+type SortFormProps = {
+  currentSort: SortKindType;
+  onSortItemClick: (type: string) => void;
+}
+
+export default function SortForm({currentSort, onSortItemClick}: SortFormProps) {
+
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
   return (
-    <form className="places__sorting" action="#" method="get">
+    <form className="places__sorting" action="#" method="get" onClick={()=> setMenuOpen(!isMenuOpen)}>
       <span className="places__sorting-caption">Sort by</span>
       <span className="places__sorting-type" tabIndex={0}>
-                  Popular
-        <svg className="places__sorting-arrow" width="7" height="4">
+        {SORT_LIST[currentSort]}
+        <svg className={cn(
+          'places__sorting-arrow',
+          { 'places__sorting-arrow-close': !isMenuOpen }
+        )}
+        width="7" height="4"
+        >
           <use xlinkHref="#icon-arrow-select"></use>
         </svg>
       </span>
-      {/* places__options--opened */}
-      <ul className="places__options places__options--custom">
-        {/* places__option--active */}
-        <li className="places__option" tabIndex={0}>Popular</li>
-        <li className="places__option" tabIndex={0}>Price: low to high</li>
-        <li className="places__option" tabIndex={0}>Price: high to low</li>
-        <li className="places__option" tabIndex={0}>Top rated first</li>
+      <ul className={cn(
+        'places__options',
+        'places__options--custom',
+        { 'places__options--opened': isMenuOpen })}
+      >
+
+        {Object.entries(SORT_LIST).map(([sortType, sortDescription]) => (
+          <li onClick={() => onSortItemClick(sortType)}
+            key={sortType}
+            className={cn('places__option',
+              { 'places__option--active': currentSort === sortType})}
+            tabIndex={0}
+          >
+            {sortDescription}
+          </li>
+        ))}
+
       </ul>
     </form>
   );
