@@ -35,9 +35,10 @@ export default function OfferPage(props: OfferPageProps): JSX.Element {
   // TODO - запрос nearList с сервера
   //TODO - случайная выборка
   const offersData = getMockOfferList();
-  const nearList: OfferListType = offersData.filter((item) => item.city.name === offerCity.name).slice(7, 9);
+  const nearList: OfferListType = offersData.filter((item) => item.city.name === offerCity.name).slice(7, 10);
   const currentOfferToMap: OfferType = getAdaptedOffer({ ...offerDetails, id: id });
-  nearList.push(currentOfferToMap);
+  const nearListToMap = nearList.slice();
+  nearListToMap.push(currentOfferToMap);
 
   // TODO - запрос с сервера
   const commentsList: CommentsListType = getMockCommentsList();
@@ -164,14 +165,13 @@ export default function OfferPage(props: OfferPageProps): JSX.Element {
             </div>
           </div>
 
-          <Map city={offerCity} mapPoints={nearList} selectedOfferId={id} className='offer__map'/>
+          <Map city={offerCity} mapPoints={nearListToMap} selectedOfferId={id} className='offer__map'/>
 
         </section>
         <div className="container">
           <section className="near-places places">
             <h2 className="near-places__title">Other places in the neighbourhood</h2>
             <NearOfferList offersList={nearList} />
-
           </section>
         </div>
       </main>
