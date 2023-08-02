@@ -1,2 +1,1 @@
-// export const PAGE_CARD_COUNT = 5;
-// export const TOTAL_OFFER_COUNT = 313;
+export const MAX_NEAR_OFFER = 3;

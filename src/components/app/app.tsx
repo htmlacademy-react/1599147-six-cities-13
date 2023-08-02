@@ -11,19 +11,15 @@ import OfferPage from '../../pages/offer-page/offer-page';
 
 import { AppRoute } from '../../constants/app-routes';
 import { AuthStatus } from '../../constants/auth-status';
-import { FavoriteGroupType, OfferDetailsType, OfferListType } from '../../types/offer-types';
-import { CommentsListType } from '../../types/comment-types';
+import { FavoriteGroupType} from '../../types/offer-types';
 
 type AppProps = {
-  offerList: OfferListType;
   favoriteList: FavoriteGroupType;
-  offerDetails: OfferDetailsType;
-  commentsList: CommentsListType;
 }
 
 export default function App(props: AppProps): JSX.Element {
 
-  const { offerList, favoriteList, offerDetails, commentsList } = props;
+  const { favoriteList } = props;
 
   return (
     <HelmetProvider>
@@ -37,7 +33,7 @@ export default function App(props: AppProps): JSX.Element {
             />
             <Route path={AppRoute.Offer}
               element={
-                <OfferPage authStatus={AuthStatus.Auth} commentsList={commentsList} offerDetails={offerDetails} nearList={offerList} />
+                <OfferPage authStatus={AuthStatus.Auth} />
               }
             />
             <Route path={AppRoute.Favorites} element={

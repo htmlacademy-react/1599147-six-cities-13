@@ -1,8 +1,9 @@
-import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import cn from 'classnames';
+import { useParams } from 'react-router-dom';
 
-import { OfferDetailsType, OfferListType } from '../../types/offer-types';
+
+import { OfferDetailsType, OfferListType, OfferType } from '../../types/offer-types';
 import { CommentsListType } from '../../types/comment-types';
 import { CityItemType } from '../../types/cities-types';
 
@@ -14,24 +15,36 @@ import Map from '../../components/map/map';
 
 import { calcRatingWidth, capitalize } from '../../utils/utils';
 
-import { CITY_LIST } from '../../constants/cities-list';
 import { AuthStatus, AuthStatusType } from '../../constants/auth-status';
+import { getMockCommentsList, getMockOfferDetails, getMockOfferList } from '../../mocks/mock-model';
+import { getAdaptedOffer } from './offer-page-helper';
 
 type OfferPageProps = {
   authStatus: AuthStatusType;
-  offerDetails: OfferDetailsType;
-  commentsList: CommentsListType;
-  nearList: OfferListType;
-
 }
 
 export default function OfferPage(props: OfferPageProps): JSX.Element {
 
-  const [selectedOfferId, setSelectedOffer] = useState('');
-  const handleOfferSelect = (id: string) => setSelectedOffer(id);
-  const fakeCurrentCity: CityItemType | undefined = CITY_LIST.find((item) => item.name === 'Amsterdam');
+  const {id} = useParams<string>();
 
-  const { authStatus, offerDetails, commentsList, nearList } = props;
+  // TODO - запрос с сервера и всё дальнейшее - только, если всё ок
+  const offerDetails: OfferDetailsType = getMockOfferDetails();
+
+  const offerCity: CityItemType = offerDetails.city;
+
+  // TODO - запрос nearList с сервера
+  //TODO - случайная выборка
+  const offersData = getMockOfferList();
+  const nearList: OfferListType = offersData.filter((item) => item.city.name === offerCity.name).slice(7, 9);
+  const currentOfferToMap: OfferType = getAdaptedOffer({ ...offerDetails, id: id });
+  nearList.push(currentOfferToMap);
+
+  // TODO - запрос с сервера
+  const commentsList: CommentsListType = getMockCommentsList();
+
+  // TODO статус авторизации - из глобального состояния
+  const { authStatus } = props;
+
   return (
     <div className="page">
       <Helmet>
@@ -151,14 +164,13 @@ export default function OfferPage(props: OfferPageProps): JSX.Element {
             </div>
           </div>
 
-          <Map city={fakeCurrentCity} mapPoints={nearList} selectedOfferId={selectedOfferId} className='offer__map'/>
+          <Map city={offerCity} mapPoints={nearList} selectedOfferId={id} className='offer__map'/>
 
         </section>
         <div className="container">
           <section className="near-places places">
             <h2 className="near-places__title">Other places in the neighbourhood</h2>
-
-            <NearOfferList offersList={nearList} onOfferSelect={handleOfferSelect} />
+            <NearOfferList offersList={nearList} />
 
           </section>
         </div>
