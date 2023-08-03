@@ -4,10 +4,11 @@ import { AppRoute } from '../../constants/app-routes';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { CITY_LIST } from '../../constants/cities-list';
 import { changeCity } from '../../store/action';
+import { getCurrentCity } from '../../store/store-selectors/selectors';
 
 export default function CitiesFilter(): JSX.Element {
 
-  const currentCity = useAppSelector((state) => state.city);
+  const currentCity = useAppSelector(getCurrentCity);
   const getCityByName = (cityName: string) => CITY_LIST.find((item) => item.name === cityName);
 
   const dispatch = useAppDispatch();

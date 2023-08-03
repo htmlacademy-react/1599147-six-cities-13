@@ -7,12 +7,13 @@ import NullOfferList from '../../components/null-offer-list/null-offer-list';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { loadOfferList } from '../../store/action';
 import MainOffers from '../../components/main-offers/main-offers';
+import { getCurrentCity, getStoredOffers } from '../../store/store-selectors/selectors';
 
 export default function MainPage(): JSX.Element {
 
   const dispatch = useAppDispatch();
-  const currentCity = useAppSelector((state) => state.city);
-  const offersData = useAppSelector((state) => state.offerList);
+  const currentCity = useAppSelector(getCurrentCity);
+  const offersData = useAppSelector(getStoredOffers);
   const currentOfferList = offersData.filter((item) => item.city.name === currentCity?.name);
 
   useEffect(() => {
@@ -42,7 +43,7 @@ export default function MainPage(): JSX.Element {
             'container')}
           >
             {!isOffersListEmpty ? (
-              <MainOffers currentCity={currentCity} currentOfferList={currentOfferList}/>
+              <MainOffers currentOfferList={currentOfferList}/>
             ) : (<NullOfferList />)}
           </div>
         </div>

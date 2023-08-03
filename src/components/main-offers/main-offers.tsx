@@ -1,26 +1,22 @@
 import MainOfferList from '../proxy/main-offer-list';
 import SortForm from '../sort-form/sort-form';
 import Map from '../map/map';
-import { CityItemType } from '../../types/cities-types';
-import { OfferListType, OfferType } from '../../types/offer-types';
+import { OfferListType } from '../../types/offer-types';
 import { useState } from 'react';
 import { DEFAULT_SORT, SortKindType } from '../../constants/sort-constants';
+import { getSortedOfferList } from './main-helpers';
+import { useAppSelector } from '../../hooks';
+import { getCurrentCity } from '../../store/store-selectors/selectors';
 
 type MainOffersProps = {
-  currentCity?: CityItemType;
   currentOfferList: OfferListType;
 }
 
-const sortCallbackMap = {
-  popular: () => 0,
-  priceAsc: (a: OfferType, b:OfferType) => a.price - b.price,
-  priceDesc: (a: OfferType, b:OfferType) => b.price - a.price,
-  top: (a: OfferType, b:OfferType) => b.rating - a.rating,
-};
-
 export default function MainOffers(props: MainOffersProps): JSX.Element {
 
-  const { currentCity, currentOfferList } = props;
+  const { currentOfferList } = props;
+
+  const currentCity = useAppSelector(getCurrentCity);
 
   const [selectedOfferId, setSelectedOffer] = useState<string>('');
   const handleOfferSelect = (id: string) => setSelectedOffer(id);
@@ -29,7 +25,8 @@ export default function MainOffers(props: MainOffersProps): JSX.Element {
   const handleSortChange = (type: string): void => {
     setCurrentSort(type as SortKindType);
   };
-  const sortedOfferList: OfferListType = currentOfferList.slice().sort(sortCallbackMap[currentSort]);
+
+  const sortedOfferList: OfferListType = getSortedOfferList(currentOfferList, currentSort);
 
   return (
     <>

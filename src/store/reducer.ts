@@ -6,12 +6,12 @@ import { CityItemType } from '../types/cities-types';
 
 import mockOfferList from '../mocks/offer-list.json';
 
-type OfferListState = {
-  city: CityItemType | undefined;
+export type AppState = {
+  city?: CityItemType;
   offerList: OfferListType;
 }
 
-const initialState: OfferListState = {
+const initialState: AppState = {
   city: DEFAULT_CITY,
   offerList: []
 };
