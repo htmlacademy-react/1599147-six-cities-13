@@ -1,31 +1,26 @@
 import cn from 'classnames';
-import { useState } from 'react';
-
-import { OfferListType } from '../../types/offer-types';
-import { CityItemType } from '../../types/cities-types';
+import { useEffect } from 'react';
 
 import CitiesFilter from '../../components/cities-filter/cities-filter';
 import Header from '../../components/header/header';
-import SortForm from '../../components/sort-form/sort-form';
-import { cityList } from '../../constants/cities-list';
 import NullOfferList from '../../components/null-offer-list/null-offer-list';
-import Map from '../../components/map/map';
-import MainOfferList from '../../components/proxy/main-offer-list';
+import { useAppDispatch, useAppSelector } from '../../hooks';
+import { loadOfferList } from '../../store/action';
+import MainOffers from '../../components/main-offers/main-offers';
+import { getCurrentCity, getStoredOffers } from '../../store/store-selectors/selectors';
 
-type MainPageProps = {
-  offerCount: number;
-  offersList: OfferListType;
-}
+export default function MainPage(): JSX.Element {
 
-export default function MainPage(props: MainPageProps): JSX.Element {
+  const dispatch = useAppDispatch();
+  const currentCity = useAppSelector(getCurrentCity);
+  const offersData = useAppSelector(getStoredOffers);
+  const currentOfferList = offersData.filter((item) => item.city.name === currentCity?.name);
 
-  // TODO - защита от того, если координат города нет - назначить точку по-умолчанию
-  //TODO - при связи с картой перерисовывается вся  страница.  включая заголовок и фильтры. исправить?
-  const fakeCurrentCity: CityItemType | undefined = cityList.find((item) => item.name === 'Amsterdam');
+  useEffect(() => {
+    dispatch(loadOfferList());
+  }, [dispatch]);
 
-  const [selectedOfferId, setSelectedOffer] = useState('');
-
-  const handleOfferSelect = (id: string) => setSelectedOffer(id);
+  const isOffersListEmpty = currentOfferList.length === 0;
 
   return (
     <div className="page page--gray page--main">
@@ -34,35 +29,22 @@ export default function MainPage(props: MainPageProps): JSX.Element {
       <main className={cn(
         'page__main',
         'page__main--index',
-        { 'page__main--index-empty': props.offersList.length === 0 })}
+        { 'page__main--index-empty': isOffersListEmpty })}
       >
         <h1 className="visually-hidden">Cities</h1>
         <div className="tabs">
-          <CitiesFilter cityList={cityList} />
+          <CitiesFilter />
         </div>
         <div className="cities">
 
           <div className={cn(
             'cities__places-container',
-            {'cities__places-container--empty': props.offersList.length === 0},
+            {'cities__places-container--empty': isOffersListEmpty},
             'container')}
           >
-            {/* TODO - два условия на одно и то же - избавиться */}
-            { props.offersList.length > 0 && (
-              <>
-                <section className="cities__places places">
-                  <h2 className="visually-hidden">Places</h2>
-                  <b className="places__found">{props.offerCount} places to stay in {fakeCurrentCity?.name}</b>
-                  <SortForm />
-                  <MainOfferList offersList={props.offersList} onOfferSelect={handleOfferSelect} />
-                </section>
-                <div className="cities__right-section">
-                  <Map city={fakeCurrentCity} mapPoints={props.offersList} selectedOfferId={selectedOfferId} className='cities__map' />
-                </div>
-              </>)}
-            {props.offersList.length === 0 && (
-              <NullOfferList />
-            )}
+            {!isOffersListEmpty ? (
+              <MainOffers currentOfferList={currentOfferList}/>
+            ) : (<NullOfferList />)}
           </div>
         </div>
       </main>

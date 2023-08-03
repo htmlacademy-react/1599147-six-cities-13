@@ -2,9 +2,10 @@ import { useEffect, useRef } from 'react';
 import leaflet, { Marker, layerGroup } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { CityItemType } from '../../types/cities-types';
-import useMap from '../../hoock/use-map';
-import { ACTIVE_ICON_CONFIG, DEFAULT_CITY, DEFAULT_ICON_CONFIG } from '../../constants/map';
+import useMap from '../../hooks/use-map';
+import { ACTIVE_ICON_CONFIG, DEFAULT_ICON_CONFIG } from '../../constants/map';
 import { OfferListType } from '../../types/offer-types';
+import { DEFAULT_CITY } from '../../constants/cities-list';
 
 type MapProps = {
   city?: CityItemType;
@@ -22,6 +23,7 @@ export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = 
   const map = useMap(mapRef, city);
 
   useEffect(() => {
+
     if (map) {
       const markerLayer = layerGroup().addTo(map);
 
@@ -36,7 +38,11 @@ export default function Map({ city = DEFAULT_CITY, mapPoints, selectedOfferId = 
           selectedOfferId !== '' && item.id === selectedOfferId ? activeIcon : defaultIcon)
           .addTo(markerLayer);
       });
+      return () => {
+        map.removeLayer(markerLayer);
+      };
     }
+
   }, [map, mapPoints, selectedOfferId]);
 
   return (
