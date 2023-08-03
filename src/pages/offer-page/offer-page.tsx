@@ -17,7 +17,7 @@ import { calcRatingWidth, capitalize } from '../../utils/utils';
 
 import { AuthStatus, AuthStatusType } from '../../constants/auth-status';
 import { getMockCommentsList, getMockOfferDetails, getMockOfferList } from '../../mocks/mock-model';
-import { getAdaptedOffer } from './offer-page-helper';
+import { getAdaptedOffer } from './helpers';
 
 type OfferPageProps = {
   authStatus: AuthStatusType;

@@ -4,7 +4,7 @@ import Map from '../map/map';
 import { OfferListType } from '../../types/offer-types';
 import { useState } from 'react';
 import { DEFAULT_SORT, SortKindType } from '../../constants/sort-constants';
-import { getSortedOfferList } from './main-helpers';
+import { getSortedOfferList } from './helpers';
 import { useAppSelector } from '../../hooks';
 import { getCurrentCity } from '../../store/store-selectors/selectors';
 
