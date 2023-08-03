@@ -22,8 +22,8 @@ export default function MainOffers(props: MainOffersProps): JSX.Element {
   const handleOfferSelect = (id: string) => setSelectedOffer(id);
 
   const [currentSort, setCurrentSort] = useState<SortKindType>(DEFAULT_SORT);
-  const handleSortChange = (type: string): void => {
-    setCurrentSort(type as SortKindType);
+  const handleSortChange = (type: SortKindType): void => {
+    setCurrentSort(type);
   };
 
   const sortedOfferList: OfferListType = getSortedOfferList(currentOfferList, currentSort);

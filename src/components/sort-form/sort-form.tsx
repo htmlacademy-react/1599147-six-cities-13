@@ -5,7 +5,7 @@ import { SORT_LIST, SortKindType } from '../../constants/sort-constants';
 
 type SortFormProps = {
   currentSort: SortKindType;
-  onSortItemClick: (type: string) => void;
+  onSortItemClick: (type: SortKindType) => void;
 }
 
 export default function SortForm({currentSort, onSortItemClick}: SortFormProps) {
@@ -33,7 +33,7 @@ export default function SortForm({currentSort, onSortItemClick}: SortFormProps) 
       >
 
         {Object.entries(SORT_LIST).map(([sortType, sortDescription]) => (
-          <li onClick={() => onSortItemClick(sortType)}
+          <li onClick={() => onSortItemClick(sortType as SortKindType)}
             key={sortType}
             className={cn('places__option',
               { 'places__option--active': currentSort === sortType})}
